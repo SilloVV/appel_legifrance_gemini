@@ -2,7 +2,9 @@
 
 import os 
 
-base_path="Prompts/utils/"
+import os
+# Chemin absolu vers le dossier utils
+base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "utils/")
 
 if not os.path.exists(base_path):
     raise FileNotFoundError(f"Le chemin '{base_path}' n'existe pas. Vérifiez le chemin d'accès au fichier.")

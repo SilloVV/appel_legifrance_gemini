@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import os 
 
 # prompts
-from Prompts.create_payload import system_prompt
+from LEGIFRANCE_UTILS.payload.payload_prompt.create_payload import system_prompt
 
 # parser 
 from LEGIFRANCE_UTILS.payload.parse_payload import parse_json_model_output

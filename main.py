@@ -6,7 +6,6 @@ from LEGIFRANCE_UTILS.payload.payload_generator import create_payload
 from LEGIFRANCE_UTILS.payload.parse_payload import parse_json_model_output
 from SEARCH.search_call import search_call, format_search_results
 from JURI.get_article_from_id import print_article
-from JURI.get_juri_from_id import print_juri_document, get_juri_document_metadata
 from LEGIFRANCE_UTILS.synthetize.synthetize_response import synthesize_legal_response
 
 
@@ -45,15 +44,6 @@ def main():
             
             # Extraction des métadonnées à partir des résultats structurés
             for result in api_results:
-                # Déterminer le type de document (JURI ou autre)
-                is_juri = result.get("type") == "JURI" or (result.get("id") and "JURI" in result.get("id"))
-                
-                if is_juri:
-                    # Pour les documents JURI, obtenir les métadonnées spécifiques
-                    juri_metadata = get_juri_document_metadata(result.get("id"))
-                    if juri_metadata:
-                        metadata_list.append(juri_metadata)
-                else:
                     # Pour les autres documents, utiliser le format standard
                     result_metadata = {
                         "title": result["titles"][0]["title"] if result["titles"] else "Titre inconnu",
