@@ -5,8 +5,10 @@ import re
 import sys
 import os
 
-# Ajouter le chemin parent au sys.path pour pouvoir importer les modules du projet principal
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Déterminer le chemin absolu du répertoire racine du projet
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Ajouter le dossier racine au sys.path
+sys.path.append(ROOT_DIR)
 
 # Importer les modules du projet principal
 from LEGIFRANCE_UTILS.payload.payload_generator import create_payload
@@ -44,6 +46,22 @@ def extract_response(text):
     if response_section:
         return response_section.group(1).strip()
     return text
+
+# Fonction pour formater les sources en liste
+def format_sources_as_list(sources_text):
+    """
+    Transforme un texte contenant des sources en liste formatée Markdown
+    """
+    # Repérer les différentes sources (séparées par des astérisques)
+    sources = sources_text.split('*')
+    
+    # Filtrer les entrées vides
+    sources = [s.strip() for s in sources if s.strip()]
+    
+    # Formater chaque source comme un élément de liste
+    formatted_sources = ["* " + source for source in sources]
+    
+    return "\n".join(formatted_sources)
 
 # Fonction principale pour traiter la question juridique
 def process_juridical_question(user_question):
@@ -161,19 +179,19 @@ if st.button("Rechercher", type="primary"):
             
             # Afficher les sources
             st.markdown("### Sources:")
+            
+            # Formater les sources en liste
+            formatted_sources = format_sources_as_list(sources_text)
+            
+            # Extraire les sources individuelles
+            sources = [src.strip() for src in sources_text.split('*') if src.strip()]
+            
+            # Afficher chaque source comme un élément séparé
+            for source in sources:
+                st.markdown(f"* {source}")
+                
             if insufficient_docs:
-                st.markdown(f"""
-                <div style="background-color: #fff3cd; padding: 20px; border-radius: 5px; border-left: 5px solid #ffc107;">
-                    {sources_text}
-                    <br><small><i>Note: Les documents trouvés ne fournissent pas d'information spécifique sur ce sujet.</i></small>
-                </div>
-                """, unsafe_allow_html=True)
-            else:
-                st.markdown(f"""
-                <div style="background-color: #f0f8ff; padding: 20px; border-radius: 5px; border-left: 5px solid #0d6efd;">
-                    {sources_text}
-                </div>
-                """, unsafe_allow_html=True)
+                st.warning("Note: Les documents trouvés ne fournissent pas d'information spécifique sur ce sujet.")
             
             # Afficher le temps d'exécution
             st.caption(f"⏱️ Temps d'exécution: {execution_time:.2f} secondes")
