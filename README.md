@@ -1,5 +1,3 @@
-![Image de la pipeline complète]( /image_readme/pipeline.png "Image Title")
-
 
 # Projet d'Assistant Juridique - Légifrance API
 ## Pipeline de l'outil :
