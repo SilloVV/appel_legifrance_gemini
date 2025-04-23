@@ -176,7 +176,7 @@ if __name__ == "__main__":
         "criteres": [
           {
             "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
-            "valeur": "société statut variable",
+            "valeur": "statut variable",
             "operateur": "ET",
             "proximité": 5
           },
@@ -197,4 +197,4 @@ if __name__ == "__main__":
     if error:
         print(f"Erreur: {error}")
     else:
-        format_search_results(results)
+        doc  = format_search_results(results)

@@ -15,33 +15,9 @@ def main():
     # Générer le payload pour la recherche
     user_input = input("Entrez votre question : ")
     
-    # Vérifier si l'entrée contient directement un identifiant JURI
-    if "JURI" in user_input:
-        # Extraction potentielle d'un ID JURI
-        words = user_input.split()
-        for word in words:
-            if word.startswith("JURI"):
-                juri_id = word.strip()
-                print(f"ID JURI détecté : {juri_id}")
-                
-                # Appel de la fonction pour afficher le document JURI
-                juri_document = print_juri_document(juri_id)
-                
-                # Si nous voulons aussi obtenir les métadonnées pour une synthèse éventuelle
-                juri_metadata = get_juri_document_metadata(juri_id)
-                
-                # Option : générer une synthèse avec les métadonnées du document JURI
-                if juri_metadata:
-                    metadata_list = [juri_metadata]
-                    synthesis = synthesize_legal_response(user_input, metadata_list)
-                    print("\nSynthèse du document JURI :")
-                    print(synthesis)
-                
-                return
-    
-    # Continuer avec le flux normal si aucun ID JURI n'est détecté
+
     payload = create_payload(user_input=user_input)
-    print(f"INFO: Payload généré :\n {payload}")
+    print(f"INFO: Payload généré \n ")
 
     try:
         # Tenter de convertir la chaîne en objet JSON
@@ -61,8 +37,8 @@ def main():
                 print("Aucun résultat trouvé.\n")
                 return
             
-            # Affichage des résultats formatés
-            format_search_results(api_results)
+            #  affichage des documents formattés
+            # format_search_results(api_results)
 
             # Préparation des métadonnées pour la synthèse
             metadata_list = []
