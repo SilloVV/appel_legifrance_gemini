@@ -1,5 +1,5 @@
 {
-    "executionTime": 982,
+    "executionTime": 864,
     "results": [
         {
             "titles": [
@@ -21,58 +21,66 @@
             "date": "1804-03-21T00:00:00.000+0000",
             "sections": [
                 {
-                    "id": "LEGISCTA000006136229",
-                    "title": "Chapitre III : De l'émancipation",
-                    "dateVersion": "2020-01-01T00:00:00.000+0000",
+                    "id": "LEGISCTA000006165771",
+                    "title": "Paragraphe 2 : Des autres dettes",
+                    "dateVersion": "2007-01-01T00:00:00.000+0000",
                     "legalStatus": "VIGUEUR",
                     "extracts": [
                         {
-                            "id": "LEGIARTI000039367527",
-                            "title": "413-8",
+                            "id": "LEGIARTI000006433067",
+                            "title": "879",
                             "legalStatus": "VIGUEUR",
-                            "dateVersion": "2020-01-01T00:00:00.000+0000",
-                            "dateDebut": "2020-01-01T00:00:00.000+0000",
+                            "dateVersion": "2007-01-01T00:00:00.000+0000",
+                            "dateDebut": "2007-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "413-8",
+                            "num": "879",
                             "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision d'émancipation et du président du tribunal judiciaire s'il formule cette demande après avoir été <mark>émancipé</mark> [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "LEGIARTI000006427926",
-                            "title": "413-6",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2009-01-01T00:00:00.000+0000",
-                            "dateDebut": "2009-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "413-6",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> est capable, comme un majeur, de tous les actes de la vie civile. [...] Il doit néanmoins, pour se marier ou se donner en adoption, observer les mêmes règles que s'il n'était point <mark>émancipé</mark>. [...]"
+                                "[...] Ce <mark>droit</mark> <mark>peut</mark> s'exercer par tout acte par lequel un créancier manifeste au créancier concurrent son intention d'être préféré sur un bien déterminé. [...]"
                             ],
                             "type": "articles"
                         }
                     ]
                 },
                 {
-                    "id": "LEGISCTA000006150110",
-                    "title": "Section 2 : Des dispositions communes aux mesures judiciaires",
-                    "dateVersion": "2009-01-01T00:00:00.000+0000",
+                    "id": "LEGISCTA000044058898",
+                    "title": "Paragraphe 2 :  Des règles particulières à l'hypothèque légale des mineurs ou des majeurs en tutelle ",
+                    "dateVersion": "2022-01-01T00:00:00.000+0000",
                     "legalStatus": "VIGUEUR",
                     "extracts": [
                         {
-                            "id": "LEGIARTI000006427469",
-                            "title": "429",
+                            "id": "LEGIARTI000044072163",
+                            "title": "2399",
                             "legalStatus": "VIGUEUR",
-                            "dateVersion": "2009-01-01T00:00:00.000+0000",
-                            "dateDebut": "2009-01-01T00:00:00.000+0000",
+                            "dateVersion": "2022-01-01T00:00:00.000+0000",
+                            "dateDebut": "2022-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "429",
+                            "num": "2399",
                             "values": [
-                                "[...] La mesure de protection judiciaire <mark>peut</mark> être ouverte pour un <mark>mineur</mark> <mark>émancipé</mark> comme pour un majeur. [...] Pour un <mark>mineur</mark> non <mark>émancipé</mark>, la demande <mark>peut</mark> être introduite et jugée dans la dernière année de sa minorité. La mesure de protection judiciaire ne prend toutefois effet que du jour de sa majorité. [...]"
+                                "[...] Le <mark>mineur</mark>, après sa majorité ou son <mark>émancipation</mark>, ou le majeur en tutelle, après la mainlevée de la tutelle des majeurs, <mark>peut</mark> requérir, dans le délai d'un an, l'inscription de son hypothèque légale ou [...] Ce <mark>droit</mark> <mark>peut</mark> être exercé par leurs héritiers dans le même délai ou dans l'année de leur décès s'ils sont décédés alors qu'ils étaient encore <mark>mineurs</mark> ou majeurs en tutelle. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                },
+                {
+                    "id": "LEGISCTA000044062700",
+                    "title": "Sous-section 1 : De la fiducie à titre de garantie",
+                    "dateVersion": "2022-01-01T00:00:00.000+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "LEGIARTI000044071534",
+                            "title": "2372-1",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2022-01-01T00:00:00.000+0000",
+                            "dateDebut": "2022-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "2372-1",
+                            "values": [
+                                "[...] La propriété d'un bien mobilier ou d'un <mark>droit</mark> <mark>peut</mark> être cédée à titre de garantie d'une obligation en vertu d'un contrat de fiducie conclu en application des articles 2011 à 2030 . [...] L'obligation garantie <mark>peut</mark> être présente ou future ; dans ce dernier cas, elle doit être déterminable. [...]"
                             ],
                             "type": "articles"
                         }
@@ -142,51 +150,51 @@
                             "searchFieldName": null,
                             "num": "L121-2",
                             "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision d'émancipation et du président du   tribunal judiciaire s'il formule cette demande après avoir été [...] <mark>émancipé</mark>. [...]"
+                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision <mark>d'émancipation</mark> et du président du   tribunal judiciaire s'il formule cette demande après avoir été [...] <mark>émancipé</mark>. [...]"
                             ],
                             "type": "articles"
                         }
                     ]
                 },
                 {
-                    "id": "LEGISCTA000006146043",
-                    "title": "Chapitre II : Des sociétés en commandite simple.",
-                    "dateVersion": "2000-09-21T00:00:00.000+0000",
+                    "id": "LEGISCTA000006146141",
+                    "title": "Chapitre Ier : Des marchés d'intérêt national",
+                    "dateVersion": "2006-06-09T00:00:00.000+0000",
                     "legalStatus": "VIGUEUR",
                     "extracts": [
                         {
-                            "id": "LEGIARTI000006222797",
-                            "title": "L222-10",
+                            "id": "LEGIARTI000006241485",
+                            "title": "L761-9",
                             "legalStatus": "VIGUEUR",
-                            "dateVersion": "2000-09-21T00:00:00.000+0000",
-                            "dateDebut": "2000-09-21T00:00:00.000+0000",
+                            "dateVersion": "2006-06-09T00:00:00.000+0000",
+                            "dateDebut": "2006-06-09T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "L222-10",
+                            "num": "L761-9",
                             "values": [
-                                "[...] S'il est stipulé que malgré le décès de l'un des commandités, la société continue avec ses héritiers, ceux-ci deviennent commanditaires lorsqu'ils sont <mark>mineurs</mark> non <mark>émancipés</mark>. [...] A défaut, la société est dissoute de plein <mark>droit</mark> à l'expiration de ce délai. [...]"
+                                "[...] Le <mark>droit</mark> d'occupation privative d'emplacement dont dispose un <mark>commerçant</mark> établi dans l'enceinte d'un marché d'intérêt national est susceptible d'être compris dans le nantissement de son fonds de <mark>commerce</mark> [...]"
                             ],
                             "type": "articles"
                         }
                     ]
                 },
                 {
-                    "id": "LEGISCTA000006178773",
-                    "title": "Sous-section 4 : Les actions à dividende prioritaire sans droit de vote.",
-                    "dateVersion": "2004-06-26T00:00:00.000+0000",
+                    "id": "LEGISCTA000006146026",
+                    "title": "Chapitre IV : Des sociétés coopératives de commerçants détaillants.",
+                    "dateVersion": "2023-01-01T00:00:00.000+0000",
                     "legalStatus": "VIGUEUR",
                     "extracts": [
                         {
-                            "id": "LEGIARTI000006227986",
-                            "title": "L228-35-8",
+                            "id": "LEGIARTI000044056303",
+                            "title": "L124-4",
                             "legalStatus": "VIGUEUR",
-                            "dateVersion": "2004-06-26T00:00:00.000+0000",
-                            "dateDebut": "2004-06-26T00:00:00.000+0000",
+                            "dateVersion": "2023-01-01T00:00:00.000+0000",
+                            "dateDebut": "2023-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "L228-35-8",
+                            "num": "L124-4",
                             "values": [
-                                "[...] directeurs généraux, les membres du directoire et du conseil de surveillance d'une société anonyme, les gérants d'une société en commandite par actions et leur conjoint non séparé de corps ainsi que leurs <mark>enfants</mark> [...] <mark>mineurs</mark> non <mark>émancipés</mark> ne peuvent détenir, sous quelque forme que ce soit, des actions à dividende prioritaire sans <mark>droit</mark> de vote émises par cette société. [...]"
+                                "[...] Sans préjudice de l'application des dispositions de l'article 3 bis de la loi n° 47-1775 du 10 septembre 1947 portant statut de la coopération, tout <mark>commerçant</mark>, exerçant le <mark>commerce</mark> de détail, régulièrement [...] établi sur le territoire d'un Etat étranger, <mark>peut</mark> être membre de coopératives de <mark>commerçants</mark>. [...]"
                             ],
                             "type": "articles"
                         }
@@ -224,9 +232,9 @@
         {
             "titles": [
                 {
-                    "id": "LEGITEXT000006074075",
-                    "cid": "LEGITEXT000006074075",
-                    "title": "Code de l'urbanisme",
+                    "id": "JORFTEXT000000591534",
+                    "cid": "JORFTEXT000000591534",
+                    "title": "Arrêté du 26 juillet 2002 portant modification de l'arrêté du 16 mai 1974 modifié fixant les modèles de livret de famille",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -235,235 +243,7 @@
             ],
             "text": null,
             "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1973-01-03T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000017630675",
-                    "title": "Chapitre VIII : Etablissement public de gestion du quartier d'affaires de La Défense",
-                    "dateVersion": "2019-04-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000037775979",
-                            "title": "R328-3",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2019-04-01T00:00:00.000+0000",
-                            "dateDebut": "2019-04-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R328-3",
-                            "values": [
-                                "[...] capital ou des <mark>droits</mark> de vote, possédés par eux-mêmes, leurs conjoints et <mark>enfants</mark> <mark>mineurs</mark> non <mark>émancipés</mark> dans les mêmes sociétés ou organismes. [...] Cet administrateur ne <mark>peut</mark> siéger au conseil d'administration avant de s'être acquitté de cette obligation, à moins qu'il ait justifié être dans l'impossibilité temporaire de le faire. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006158754",
-                    "title": "Chapitre Ier : Etablissements publics",
-                    "dateVersion": "2025-03-19T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000051346639",
-                            "title": "R321-5",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2025-03-19T00:00:00.000+0000",
-                            "dateDebut": "2025-03-19T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R321-5",
-                            "values": [
-                                "[...] capital ou des <mark>droits</mark> de vote, possédés par eux-mêmes, leurs conjoints et <mark>enfants</mark> <mark>mineurs</mark> non <mark>émancipés</mark> dans les mêmes sociétés ou organismes. [...] Cet administrateur ne <mark>peut</mark> siéger au conseil d'administration avant de s'être acquitté de cette obligation, à moins qu'il ait justifié être dans l'impossibilité temporaire de le faire. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000017785327",
-                    "title": " Section 3 : Rétrocession",
-                    "dateVersion": "2023-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000046074442",
-                            "title": "R214-12",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2023-01-01T00:00:00.000+0000",
-                            "dateDebut": "2023-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R214-12",
-                            "values": [
-                                "[...] Cet avis comporte un appel à candidatures, la description du fonds, du bail ou du terrain, le prix proposé et mentionne que le cahier des charges <mark>peut</mark> être consulté en mairie. [...] Lorsque l'exercice du <mark>droit</mark> de préemption a été délégué, le délégataire transmet l'avis de rétrocession au maire qui en assure la publicité dans les conditions fixées au premier alinéa. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006074075",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000006073189",
-                    "cid": "LEGITEXT000006073189",
-                    "title": "Code de la sécurité sociale",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1958-10-16T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000047450298",
-                    "title": "Chapitre 8 : Pension d'orphelin",
-                    "dateVersion": "2023-09-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000047450364",
-                            "title": "L358-7",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2023-09-01T00:00:00.000+0000",
-                            "dateDebut": "2023-09-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L358-7",
-                            "values": [
-                                "[...] -Lorsque le bénéficiaire de la pension d'orphelin est un <mark>mineur</mark> non <mark>émancipé</mark>, les déclarations prévues au I du présent article sont effectuées par ses tuteurs. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006172514",
-                    "title": "Section 2 : Chirurgiens-dentistes, sages-femmes et auxiliaires médicaux",
-                    "dateVersion": "2021-04-28T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000043422500",
-                            "title": "L162-8-2",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2021-04-28T00:00:00.000+0000",
-                            "dateDebut": "2021-04-28T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L162-8-2",
-                            "values": [
-                                "[...] Afin de favoriser la coordination des soins en lien avec le médecin, pendant et après la grossesse, l'assurée ou l'ayant <mark>droit</mark> <mark>peut</mark> déclarer à son organisme gestionnaire de régime de base de l'assurance [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006155877",
-                    "title": "Chapitre 4 : Allocation de présence parentale ",
-                    "dateVersion": "2022-04-30T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000045706451",
-                            "title": "D544-3",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2022-04-30T00:00:00.000+0000",
-                            "dateDebut": "2022-04-30T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "D544-3",
-                            "values": [
-                                "[...] Au cours d'une période de trois ans à compter de la date d'ouverture du <mark>droit</mark> à l'allocation journalière de présence parentale et en l'absence d'utilisation du nombre maximal d'allocations journalières [...] mentionné à l'article L. 544-3 , ce <mark>droit</mark> <mark>peut</mark> être ouvert à nouveau en cas de rechute de la pathologie au titre de laquelle le <mark>droit</mark> avait été ouvert et dès lors que les conditions visées aux articles [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006073189",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "JORFTEXT000000580585",
-                    "cid": "JORFTEXT000000580585",
-                    "title": "Observations du Gouvernement sur les recours dirigés contre la loi relative au pacte civil de solidarité",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "OBSERVATION",
+            "nature": "ARRETE",
             "origin": "JORF",
             "etat": null,
             "date": null,
@@ -475,7 +255,7 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000001437032",
+                            "id": "JORFARTI000001821555",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
@@ -484,12 +264,12 @@
                             "searchFieldName": null,
                             "num": null,
                             "values": [
-                                "[...] Toutefois, cette règle connaît des exceptions : - le <mark>mineur</mark> <mark>émancipé</mark> ne <mark>peut</mark> se marier, ni consentir à se faire adopter, sans l'autorisation de ses parents (article 481 du code civil) ; - il ne <mark>peut</mark> être [...] <mark>commerçant</mark> (article 487 du code civil). [...]"
+                                "[...] Les copies intégrales d'acte de naissance sont délivrées à l'intéressé lui-même s'il est majeur ou <mark>mineur</mark> <mark>émancipé</mark>, à ses ascendants, ses descendants, son conjoint et son représentant légal, sur indication [...] Les <mark>enfants</mark> <mark>mineurs</mark> non mariés d'une personne qui acquiert la nationalité française deviennent français de plein <mark>droit</mark> sous certaines conditions. [...]"
                             ],
                             "type": "articles"
                         },
                         {
-                            "id": "JORFARTI000001437033",
+                            "id": "JORFARTI000001321983",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
@@ -498,21 +278,21 @@
                             "searchFieldName": null,
                             "num": null,
                             "values": [
-                                "[...] Ils soutiennent également que cette faculté de rupture unilatérale méconnaît les principes régissant les contrats et ignore le sort des <mark>enfants</mark>. [...] Conformément au <mark>droit</mark> commun, d'éventuels litiges entre les anciens partenaires concernant la situation de leurs <mark>enfants</mark> communs devront être portés devant le juge aux affaires familiales. 4. [...]"
+                                "[...] Les copies intégrales d'acte de naissance sont délivrées à l'intéressé lui-même s'il est majeur ou <mark>mineur</mark> <mark>émancipé</mark>, à ses ascendants, ses descendants, son conjoint et son représentant légal, sur indication [...] Mention d'un acte <mark>d'enfant</mark> sans vie L'indication <mark>d'enfant</mark> sans vie, avec énonciation des jour, heure et lieu de l'accouchement, <mark>peut</mark>, à la demande des parents, être apposée par l'officier de l'état civil [...]"
                             ],
                             "type": "articles"
                         },
                         {
-                            "id": "JORFARTI000002212613",
+                            "id": "JORFARTI000001628904",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
                             "dateDebut": "2999-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": null,
+                            "num": "4",
                             "values": [
-                                "[...] En outre, la présomption d'indivision pesant sur les meubles dont la date d'acquisition ne <mark>peut</mark> être déterminée porterait atteinte au <mark>droit</mark> de propriété d'un des partenaires. [...] d'assurer la publicité de leur régime matrimonial dans le registre du <mark>commerce</mark> et des sociétés (décret no 84-406 du 30 mai 1984 modifié, articles 8, 12 et 27). [...]"
+                                "[...] Jusqu'à cette date, les dispositions relatives au nom des époux et de <mark>l'enfant</mark> naturel contenues dans l'annexe IV de l'arrêté du 16 mai 1974 susvisé dans sa rédaction antérieure au présent arrêté demeurent [...]"
                             ],
                             "type": "articles"
                         }
@@ -524,13 +304,211 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "cscl9903809x",
+            "nor": "jusc0220273a",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "LEGITEXT000006070633",
+                    "cid": "LEGITEXT000006070633",
+                    "title": "Code général des collectivités territoriales",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "CODE",
+            "origin": "LEGI",
+            "etat": "VIGUEUR",
+            "date": "1996-02-24T00:00:00.000+0000",
+            "sections": [
+                {
+                    "id": "LEGISCTA000006181001",
+                    "title": "Section 1 : Recettes de la section de fonctionnement",
+                    "dateVersion": "2018-01-01T00:00:00.000+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "LEGIARTI000028534365",
+                            "title": "L2331-4",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2018-01-01T00:00:00.000+0000",
+                            "dateDebut": "2018-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "L2331-4",
+                            "values": [
+                                "[...] de port perçus conformément aux dispositions du livre II du code des ports maritimes relatif aux <mark>droits</mark> de port et de navigation ; 10° Le produit des <mark>droits</mark> de voirie et autres <mark>droits</mark> légalement établis [...] Cette participation, que les communes peuvent exiger sans préjudice des dispositions applicables aux activités réglementées, aux intéressés ou à leurs ayants <mark>droit</mark>, <mark>peut</mark> porter sur tout ou partie des dépenses [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                },
+                {
+                    "id": "LEGISCTA000019324076",
+                    "title": "Annexe I",
+                    "dateVersion": "2022-04-09T00:00:00.000+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "LEGIARTI000045534957",
+                            "title": "Rubrique 0",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2022-04-09T00:00:00.000+0000",
+                            "dateDebut": "2022-04-09T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "Rubrique 0",
+                            "values": [
+                                "[...] <mark>Mineur</mark> <mark>émancipé</mark> Copie du livret de famille ou extrait de l'acte de mariage, ou copie de l'acte de mariage ou certificat sur l'honneur de l'intéressé, ou expédition du jugement qui a prononcé <mark>l'émancipation</mark> [...] <mark>Mineurs</mark> étrangers isolés Déclaration établie et signée par deux témoins que le <mark>mineur</mark> est sans représentant légal et <mark>peut</mark> recevoir les sommes directement. 0272. Incapable majeur 02721. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                },
+                {
+                    "id": "LEGISCTA000006180977",
+                    "title": "Section 1 : Police de la circulation et du stationnement",
+                    "dateVersion": "2018-01-01T00:00:00.000+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "LEGIARTI000028534369",
+                            "title": "L2213-6",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2018-01-01T00:00:00.000+0000",
+                            "dateDebut": "2018-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "L2213-6",
+                            "values": [
+                                "[...] Le maire <mark>peut</mark>, moyennant le paiement de <mark>droits</mark> fixés par un tarif dûment établi, donner des permis de stationnement ou de dépôt temporaire sur la voie publique et autres lieux publics, sous réserve que [...] cette autorisation n'entraîne aucune gêne pour la circulation et la liberté du <mark>commerce</mark>. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
             "sizeAttachment": null,
             "moreArticle": true,
-            "additionalResult": {},
+            "additionalResult": {
+                "JorfAllFondConfiguration": {
+                    "id": "LEGITEXT000006070633",
+                    "properties": {}
+                }
+            },
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "LEGITEXT000027471083",
+                    "cid": "JORFTEXT000027470033",
+                    "title": "Arrêté du 24 mai 2013 modifiant l'arrêté du 29 juillet 2011 modifiant  l'arrêté du 1er juin 2006 fixant le modèle de livret de famille (rectificatif)",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "ARRETE",
+            "origin": "LEGI",
+            "etat": "VIGUEUR",
+            "date": "2013-05-30T00:00:00.000+0000",
+            "sections": [
+                {
+                    "id": "",
+                    "title": "",
+                    "dateVersion": "2025-04-23T14:15:48.541+0000",
+                    "legalStatus": "INITIALE",
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000027470044",
+                            "title": "",
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "",
+                            "values": [
+                                "[...] Les <mark>enfants</mark> <mark>mineurs</mark> non mariés d'une personne qui acquiert la nationalité française deviennent français de plein <mark>droit</mark> sous certaines conditions. [...] <mark>mineurs</mark>. [...]"
+                            ],
+                            "type": "articles"
+                        },
+                        {
+                            "id": "JORFARTI000027470041",
+                            "title": "",
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "",
+                            "values": [
+                                "[...] établie qu'à l'égard de l'un des parents ; ― décès des <mark>enfants</mark> <mark>mineurs</mark> ; ― décès des époux ou parents. [...] III. - De la troisième à la neuvième page, sont mentionnés les renseignements relatifs à l'état civil et au <mark>droit</mark> de la famille figurant à l'annexe II du présent arrêté. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": "jusc1310146a",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": false,
+            "additionalResult": {
+                "JorfAllFondConfiguration": {
+                    "id": "JORFTEXT000027470033",
+                    "properties": {}
+                }
+            },
             "raisonSociale": null,
             "idcc": null,
             "descriptionFusionHtml": null,
@@ -552,19 +530,19 @@
                 "CETAT": 547992,
                 "CIRC": 10708,
                 "CNIL": 26293,
-                "CODE": 7,
+                "CODE": 3,
                 "CONSTIT": 7038,
-                "JORF": 15,
+                "JORF": 3,
                 "JUFI": 3476,
                 "JURI": 598072,
-                "KALI": 8,
-                "LEGI": 31
+                "KALI": 0,
+                "LEGI": 9
             },
             "childs": {},
             "totalElement": 0
         }
     ],
-    "totalResultNumber": 1533263,
+    "totalResultNumber": 1533217,
     "totalArticleResultNumber": 0,
     "typePagination": "DEFAUT",
     "descriptionFusionHtml": null
