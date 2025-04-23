@@ -1,0 +1,372 @@
+
+Utilisation de l’API Légifrance : Exemples de cas pratique
+
+
+
+Contenu
+
+1.	Connexion OAuth	3
+1.1.	Obtention d’un jeton OAuth2.0 avec PISTE	3
+1.2.	Consommer l’API	3
+2.	Récupérer un article en vigueur à une date donnée, d'un code dont on connaît l'id	4
+2.1.	Étape 1 : Récupérer l’identifiant de l’article avec la méthode POST /search	4
+2.2.	Étape 2 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle	4
+3.	Récupérer un article en vigueur à une date donnée, d'un texte numéroté	5
+3.1.	Étape 1 : Trouver l’ordonnance avec la méthode POST /search	5
+3.2.	Étape 2 : trouver l’article de l’ordonnance avec la méthode POST /search	5
+3.3.	Étape 3 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle	6
+4.	Récupérer le texte complet d'une loi promulguée dont on connaît le n°	7
+4.1.	Étape 1 : Trouver l’identifiant de la loi avec la méthode POST /search	7
+4.2.	Étape 2 : Récupérer le contenu de la loi avec la méthode POST /consult/legiPart	7
+5.	Récupérer un article en vigueur à une date donnée, d'une loi identifiée par sa date de signature	8
+5.1.	Étape 1 : Trouver l’identifiant de la loi avec la méthode POST /search	8
+5.2.	Étape2 : Une fois l’identifiant LEGIARTI récupéré, on l’utilise avec la méthode /consult/getArticle	8
+6.	Récupérer un article en vigueur à une date donnée de la Constitution ou à défaut le texte complet de la Constitution	9
+6.1.	Étape 1 : Trouver l’identifiant de l’article avec la méthode POST /search	9
+6.2.	Étape 2 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle	10
+
+
+Historique des révisions
+Version
+Date
+Auteur
+Modifications
+V1
+27/11/2019
+DILA
+Initialisation du document
+V2
+26/07/2021
+DILA
+Mise à jour du document
+
+
+
+Connexion OAuth
+
+L’obtention d’un jeton OAuth par une application se fait via le protocole OAuth2.0 avec le flux Client Credentials (https://tools.ietf.org/html/rfc6749#section-4.4).
+Des exemples supplémentaires de connexion OAuth (Python, Java, JavaScript) sont disponibles sur le Gitlab de PISTE, après inscription à Gitlab.
+Obtention d’un jeton OAuth2.0 avec PISTE
+
+La requête à effectuer est la suivante :
+POST https://sandbox-oauth.piste.gouv.fr/api/oauth/token HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 140
+Host: sandbox-oauth.piste.gouv.fr
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+grant_type=client_credentials&client_id=<client_id_généré_sur_le_portail>&client_secret=<client_secret_généré_sur_le_portail>&scope=openid
+ 
+La réponse obtenue est la suivante :
+{
+   "access_token": "th2uv3lq9zY2vAoth59QpYtCSID1iWn0AG6XhnjgAP54eoY1440vp3",
+   "token_type": "Bearer",
+   "expires_in": 3600,
+   "scope": "openid"
+}
+ 
+La propriété "access_token" contient le jeton qui doit être envoyé à chaque requête API.
+La propriété "expires_in" correspond au délai d’expiration du jeton en seconde.
+Consommer l’API
+
+Pour consommer l’API, il suffit d’ajouter l’entête 'Authorization: Bearer <access_token>' à chaque requête.
+Par exemple : 
+curl -is -H 'Authorization: Bearer ojECscMjYOh215MN6dUvAI3SOmhOa0nbg5R4tYvDWhZu5HB5ejMG74' -X GET https://sandbox-api.piste.gouv.fr/dila/legifrance/lf-engine-app/list/ping'
+
+Pour les requêtes de type POST, il faut ajouter également les entêtes
+‘accept: application/json’ et ‘Content-Type: application/json’.
+Récupérer un article en vigueur à une date donnée, d'un code dont on connaît l'id
+
+Exemple :
+article L. 36-11 au 1er janvier 2018 du code LEGITEXT000006070987 (postes et des communications électroniques)
+Étape 1 : Récupérer l’identifiant de l’article avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "NUM_ARTICLE",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "L36-11",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+        "filtres": [
+            {
+                "facette": "NOM_CODE",
+                "valeurs": [
+                    "Code des postes et des communications électroniques"
+                ]
+            },
+            {
+                "facette": "DATE_VERSION",
+                "singleDate": 1514802418000
+            }
+        ],
+        "pageNumber": 1,
+        "pageSize": 10,
+        "operateur": "ET",
+    "sort": "PERTINENCE",
+        "typePagination": "ARTICLE"
+    },
+   "fond": "CODE_DATE"
+}
+
+Étape 2 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle
+
+{
+  "id": "LEGIARTI000033219357"
+}
+
+
+Récupérer un article en vigueur à une date donnée, d'un texte numéroté
+
+Exemples : 
+l’article 6 nonies au 1er janvier 2018 de l’ordonnance n°58-1100.
+l’article 3-1 au 1er janvier 2018 de la loi n° 86-1067
+Étape 1 : Trouver l’ordonnance avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "NUM",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "58-1100",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+       "filtres": [
+            {
+                "facette": "DATE_VERSION",
+                "singleDate": 1514802418000
+            }
+        ],
+        "pageNumber": 1,
+        "pageSize": 10,
+        "operateur": "ET",
+    "sort": "PERTINENCE",
+        "typePagination": "DEFAUT"
+    },
+   "fond": "LODA_DATE"
+}
+
+Étape 2 : trouver l’article de l’ordonnance avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "NUM",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "58-1100",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            },
+            {
+                "typeChamp": "NUM_ARTICLE",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "6 nonies",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+       "filtres": [
+            {
+                "facette": "DATE_VERSION",
+                "singleDate": 1514802418000
+            }
+        ],
+        "pageNumber": 1,
+        "pageSize": 10,
+        "operateur": "ET",
+    "sort": "PERTINENCE",
+        "typePagination": "DEFAUT"
+    },
+   "fond": "LODA_DATE"
+}
+
+Étape 3 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle
+
+{
+  "id": "LEGIARTI000035937614"
+}
+
+
+Récupérer le texte complet d'une loi promulguée dont on connaît le n°
+
+Exemple : 
+la loi n°2019-290 en vigueur à la date d'aujourd'hui
+Étape 1 : Trouver l’identifiant de la loi avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "NUM",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "2019-290",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+       "filtres": [
+            {
+                "facette": "DATE_VERSION",
+                "singleDate": 1561132975000
+            },
+            {
+                "facette": "TEXT_LEGAL_STATUS",
+                "valeur": "VIGUEUR"
+            }
+        ],
+        "pageNumber": 1,
+        "pageSize": 10,
+        "operateur": "ET",
+    "sort": "PERTINENCE",
+        "typePagination": "DEFAUT"
+    },
+   "fond": "LODA_ETAT"
+}
+
+Étape 2 : Récupérer le contenu de la loi avec la méthode POST /consult/legiPart
+
+{
+  "date": 1561132975000,
+  "textId": "LEGITEXT000038359719"
+}
+
+
+Récupérer un article en vigueur à une date donnée, d'une loi identifiée par sa date de signature
+
+Exemples : 
+article 57 de la loi du 17 juillet 1978 en vigueur aujourd'hui
+Étape 1 : Trouver l’identifiant de la loi avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "NUM_ARTICLE",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "57",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+       "filtres": [
+            {
+                "facette": "DATE_SIGNATURE",
+                "dates":
+                    {
+                        "start": "1978-07-17",
+                        "end": "1978-07-17"
+                    }
+            },
+                    {
+                      "facette": "DATE_VERSION",
+                      "singleDate": 1571664723166
+                    },
+                    {
+                      "facette": "TEXT_LEGAL_STATUS",
+                      "valeur": "VIGUEUR"
+                    }
+                ],
+        "pageNumber": 1,
+        "pageSize": 1,
+        "operateur": "ET",
+        "sort": "PERTINENCE",
+        "typePagination": "ARTICLE"
+    },
+   "fond": "LODA_DATE"
+}
+Étape2 : Une fois l’identifiant LEGIARTI récupéré, on l’utilise avec la méthode /consult/getArticle
+
+{
+  "id": "LEGIARTI000006528277"
+}
+Récupérer un article en vigueur à une date donnée de la Constitution ou à défaut le texte complet de la Constitution
+
+Exemple :
+article 54 de la Constitution
+Étape 1 : Trouver l’identifiant de l’article avec la méthode POST /search
+
+{
+    "recherche": {
+        "champs": [
+            {
+                "typeChamp": "TITLE",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "Constitution",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            },
+			{
+                "typeChamp": "NUM_ARTICLE",
+                "criteres": [
+                    {
+                        "typeRecherche": "EXACTE",
+                        "valeur": "54",
+                        "operateur": "ET"
+                    }
+                ],
+                "operateur": "ET"
+            }
+        ],
+       "filtres": [
+	       
+            {
+                "facette": "DATE_VERSION",
+                "singleDate": 1561132975000
+            },
+            {
+                "facette": "TEXT_LEGAL_STATUS",
+                "valeur": "VIGUEUR"
+            }
+        ],
+        "pageNumber": 1,
+        "pageSize": 10,
+        "operateur": "ET",
+    "sort": "PERTINENCE",
+        "typePagination": "DEFAUT"
+    },
+   "fond": "LODA_ETAT"
+}
+
+Étape 2 : Récupérer le contenu de l’article avec la méthode POST /consult/getArticle
+
+{
+  "id": "LEGIARTI000006527539"
+}
+

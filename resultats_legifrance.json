@@ -1,0 +1,496 @@
+{
+    "executionTime": 625,
+    "results": [
+        {
+            "titles": [
+                {
+                    "id": "JORFTEXT000000767808",
+                    "cid": "JORFTEXT000000767808",
+                    "title": "Circulaire du 13 juillet 2000  relative à la licence d'entrepreneur de spectacles",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "CIRCULAIRE",
+            "origin": "JORF",
+            "etat": null,
+            "date": null,
+            "sections": [
+                {
+                    "id": null,
+                    "title": null,
+                    "dateVersion": null,
+                    "legalStatus": null,
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000001709780",
+                            "title": null,
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": null,
+                            "values": [
+                                "[...] La demande mentionne les renseignements suivants : - identité de la <mark>personne</mark> physique ou du représentant légal ou statutaire de la <mark>personne</mark> <mark>morale</mark> candidat à la licence ; - identité de la <mark>personne</mark> <mark>morale</mark> [...]"
+                            ],
+                            "type": "articles"
+                        },
+                        {
+                            "id": "JORFARTI000001640849",
+                            "title": null,
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": null,
+                            "values": [
+                                "[...] Dans les entreprises constituées sous la forme d'une <mark>personne</mark> <mark>morale</mark>, la licence est accordée au représentant légal ou statutaire de celle-ci : c'est-à-dire le <mark>gérant</mark> pour les sociétés en nom collectif [...] , en commandite ou pour les <mark>SARL</mark>, le président du conseil d'administration, le président du directoire ou le directeur général pour les sociétés anonymes (mandataires sociaux). [...]"
+                            ],
+                            "type": "articles"
+                        },
+                        {
+                            "id": "JORFARTI000002029475",
+                            "title": null,
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": null,
+                            "values": [
+                                "[...] Elle doit mentionner : - l'identité et l'adresse du représentant de l'entreprise en France pour la durée de la prestation ; - l'enseigne, le nom ou la dénomination sociale et l'adresse de la <mark>personne</mark> <mark>morale</mark> [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": "mccb0000620c",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": true,
+            "additionalResult": {},
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "LEGITEXT000006056649",
+                    "cid": "JORFTEXT000000427092",
+                    "title": "Décret n°2007-1133 du 24 juillet 2007 relatif aux dispositions réglementaires du code du sport (Décrets en Conseil d'Etat et décrets).",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "DECRET",
+            "origin": "LEGI",
+            "etat": "VIGUEUR",
+            "date": "2007-07-25T00:00:00.000+0000",
+            "sections": [
+                {
+                    "id": "",
+                    "title": "",
+                    "dateVersion": "2025-04-23T09:46:07.308+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000001480554",
+                            "title": "Annexe",
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "Annexe",
+                            "values": [
+                                "[...] S'il s'agit d'une <mark>personne</mark> <mark>morale</mark>, la demande de conciliation doit être présentée par la <mark>personne</mark> ayant qualité pour agir en son nom. [...] des <mark>personnes</mark> <mark>morales</mark> ayant satisfait aux épreuves d'un examen écrit. [...]"
+                            ],
+                            "type": "articles"
+                        },
+                        {
+                            "id": "LEGIARTI000006522298",
+                            "title": "7",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2007-07-25T00:00:00.000+0000",
+                            "dateDebut": "2007-07-25T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "7",
+                            "values": [
+                                "[...] promotion des activités physiques et sportives ; 19° Le décret n° 90-347 du 13 avril 1990 fixant des conditions particulières pour l'attribution de la délégation du ministre chargé des sports aux fédérations <mark>gérant</mark> [...] l'application de l'article L. 232-2 du code du sport ; 71° Le décret n° 2007-462 du 25 mars 2007 relatif aux contrôles autorisés pour la lutte contre le dopage et à l'agrément et l'assermentation des <mark>personnes</mark> [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                },
+                {
+                    "id": "JORFSCTA000000902728",
+                    "title": "LIVRE Ier :   ORGANISATION DES ACTIVITÉS PHYSIQUES   ET SPORTIVES",
+                    "dateVersion": null,
+                    "legalStatus": "INITIALE",
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000002062218",
+                            "title": "",
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "",
+                            "values": [
+                                "[...] . - <mark>Personnes</mark> publiques Chapitre Ier. - Etat Chapitre II. - Etablissements publics nationaux Section 1. Dispositions générales Section 2. Le Centre national pour le développement du sport Section 3. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": "2007-1133",
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": "sjsv0758464d",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": true,
+            "additionalResult": {
+                "JorfAllFondConfiguration": {
+                    "id": "JORFTEXT000000427092",
+                    "properties": {}
+                }
+            },
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723545",
+                    "cid": "ACCOTEXT000041723545",
+                    "title": "Accord sur la mise en place d'un affichage électronique Syndical",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "8614",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "ECOCERT FRANCE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-02-21T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T03219000395",
+            "themes": [
+                "Droit syndical, IRP, expression des salariés"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723484",
+                    "cid": "ACCOTEXT000041723484",
+                    "title": "UN AVENANT N° 1 A L'ACCORD COLLECTIF RELATIF A LA MISE EN PLACE D'UNE ORGANISATION PLURI HEBDOMADAIRE A LA PLATEFORME INDUSTRIELLE COURRIER VALLEE DU RHONE DU 23 JUILLET 2019",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "3098",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "LA POSTE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-10-24T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T02619001583",
+            "themes": [
+                "Autres dispositions durée et aménagement du temps de travail"
+            ],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723509",
+                    "cid": "ACCOTEXT000041723509",
+                    "title": "ACCORD RELATIF A LA MISE EN PLACE DU FORFAIT ANNUEL EN JOURS AU SEIN DE LA SOCIETE FINANCO",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "30685",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "FINANCO",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-09-26T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T02919002599",
+            "themes": [
+                "Forfaits (en heures, en jours)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723536",
+                    "cid": "ACCOTEXT000041723536",
+                    "title": "Accord relatif à la négociation annuelle obligatoire 2019",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "5106",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "DERICHEBOURG SOURCING AERO & ENERGY",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-01-25T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T03119002645",
+            "themes": [
+                "Autres dispositions durée et aménagement du temps de travail",
+                "Egalité salariale F/H",
+                "Evolution des salaires (augmentation, gel, diminution)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723537",
+                    "cid": "ACCOTEXT000041723537",
+                    "title": "Accord conclu dans le cadre de la prime exceptionnelle de pouvoir d'achat",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "3252",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "BOOGE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-03-19T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T03119002966",
+            "themes": [
+                "Système de prime (autre qu'évolution)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000041723548",
+                    "cid": "ACCOTEXT000041723548",
+                    "title": "Avenant 4 à l'accord de modulation du temps de travail VPA - Etablissement de Pompignac du 23/12/08",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "5028",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "VEOLIA PROPRETE AQUITAINE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2019-09-02T00:00:00.000+0000",
+            "dateDiffusion": "2020-03-16T00:00:00.000+0000",
+            "reference": "T03319003515",
+            "themes": [
+                "Aménagement du temps de travail (modulation, annualisation, cycles)",
+                "Heures supplémentaires (contingent, majoration)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        }
+    ],
+    "facets": [
+        {
+            "facetElem": "FOND",
+            "field": "origine",
+            "values": {
+                "ACCO": 339623,
+                "CETAT": 547992,
+                "CIRC": 10708,
+                "CNIL": 26293,
+                "CODE": 0,
+                "CONSTIT": 7038,
+                "JORF": 1,
+                "JUFI": 3476,
+                "JURI": 598072,
+                "KALI": 0,
+                "LEGI": 1
+            },
+            "childs": {},
+            "totalElement": 0
+        }
+    ],
+    "totalResultNumber": 1533204,
+    "totalArticleResultNumber": 0,
+    "typePagination": "DEFAUT",
+    "descriptionFusionHtml": null
+}

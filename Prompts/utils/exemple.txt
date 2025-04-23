@@ -1,0 +1,38 @@
+{
+        "recherche": {
+            "champs": [
+                {
+                    "typeChamp": "ARTICLE",
+                    "proximité": 10,
+                    "criteres": [
+                        {
+                            "valeur": "mineur enfant",
+                            "typeRecherche": "UN_DES_MOTS",
+                            "operateur": "ET"
+                        },
+                        {
+                            "valeur": "commerçant commerce",
+                            "typeRecherche": "UN_DES_MOTS",
+                            "operateur": "ET"
+                        },
+                        {
+                            "valeur": "droit peut",
+                            "typeRecherche": "UN_DES_MOTS",
+                            "operateur": "ET"
+                        },
+                        {
+                            "valeur": "émancipé",
+                            "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
+                            "operateur": "OU"
+                        }
+                    ],
+                    "operateur": "ET"
+                }
+            ],
+            "pageNumber": 1,
+            "pageSize": 5,
+            "typePagination": "DEFAUT",
+            "operateur": "OU"
+        },
+        "fond": "ALL"
+    }

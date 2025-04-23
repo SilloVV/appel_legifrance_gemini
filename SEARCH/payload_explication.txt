@@ -1,0 +1,83 @@
+{
+  "recherche": {
+    // Section principale contenant tous les paramètres de recherche
+    
+    "filtres": [
+      // Liste des filtres pour affiner les résultats
+      {
+        "valeurs": ["LOI", "ORDONNANCE", "ARRETE"],
+        "facette": "NATURE"
+      },
+      // Filtre par type de document : lois, ordonnances et arrêtés uniquement
+      
+      {
+        "dates": {
+          "start": "2015-01-01",
+          "end": "2018-01-31"
+        },
+        "facette": "DATE_SIGNATURE"
+      }
+      // Filtre par date : documents signés entre le 1er janvier 2015 et le 31 janvier 2018
+    ],
+    
+    "sort": "SIGNATURE_DATE_DESC",
+    // Tri principal : par date de signature, du plus récent au plus ancien
+    
+    "fromAdvancedRecherche": false,
+    // Indique si la recherche provient de l'interface de recherche avancée
+    
+    "secondSort": "ID",
+    // Critère de tri secondaire : par identifiant
+    
+    "champs": [
+      // Définition des champs de recherche et leurs critères
+      {
+        "criteres": [
+          {
+            "proximite": 2,
+            // Distance max de 2 mots entre "dispositions" et les autres termes
+            "valeur": "dispositions",
+            "criteres": [
+              {
+                "valeur": "soins",
+                "operateur": "ET",
+                "typeRecherche": "UN_DES_MOTS"
+                // Recherche du mot "soins", avec opérateur ET
+                // UN_DES_MOTS signifie que seul un des mots dans "soins" doit être présent
+              },
+              {
+                "proximite": "3",
+                // Distance max de 3 mots entre "fonction" et "publique"
+                "valeur": "fonction publique",
+                "operateur": "ET",
+                "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP"
+                // TOUS_LES_MOTS_DANS_UN_CHAMP exige que tous les mots ("fonction" ET "publique") soient présents
+              }
+            ],
+            "operateur": "ET",
+            "typeRecherche": "UN_DES_MOTS"
+            // Recherche de "dispositions" avec opérateur ET par rapport aux sous-critères
+          }
+        ],
+        "operateur": "ET",
+        "typeChamp": "TITLE"
+        // Recherche uniquement dans le champ TITLE (titre du document)
+      }
+    ],
+    
+    "pageSize": 10,
+    // Nombre de résultats par page : 10
+    
+    "operateur": "ET",
+    // Opérateur global entre les différents champs de recherche
+    
+    "typePagination": "DEFAUT",
+    // Type de pagination standard
+    
+    "pageNumber": 1
+    // Numéro de la page de résultats : 1 (première page)
+  },
+  
+  "fond": "LODA_DATE"
+  // Base documentaire à interroger : LODA_DATE (probablement une base de textes législatifs)
+}

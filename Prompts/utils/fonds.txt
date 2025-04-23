@@ -1,0 +1,14 @@
+- "JORF" # Journal officiel de la République française
+- "CNIL" # Commission nationale de l'informatique et des libertés
+- "CETAT" # Conseil d'Etat
+- "JURI" # Jurisprudence
+- "JUFI" # Jurisprudence financière
+- "CONSTIT" # Conseil constitutionnel
+- "KALI" # Jurisprudence administrative
+- "CODE_DATE" # Codes juridiques par date
+- "CODE_ETAT" # Codes juridiques par état
+- "LODA_DATE" # Lois et décrets par date
+- "LODA_ETAT" # Lois et décrets par état
+- "ALL" # Tous les fonds
+- "CIRC" # Circulaires : informations administratives et techniques à propos de la mise en œuvre des lois et règlements
+- "ACCO" # Accords collectifs : accords de branche ou d'entreprise

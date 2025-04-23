@@ -1,0 +1,5 @@
+dotenv
+requests
+google-genai
+langchain-mistralai
+

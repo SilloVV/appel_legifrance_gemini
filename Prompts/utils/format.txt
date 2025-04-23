@@ -1,0 +1,22 @@
+  payload = {
+        "recherche": {
+            "champs": [
+                {
+                    "typeChamp": {type de champs},
+                    "criteres": [
+                        {
+                            "typeRecherche": {type de recherche},
+                            "valeur": {selon la query utilisateur},
+                            "operateur": {operateur},
+                            "proximité": 15,
+                        }
+                    ],
+                    "operateur": {operateur}
+                }
+            ],
+            "pageNumber": 1,
+            "pageSize": 8,
+            "sort": "PERTINENCE"
+        },
+        "fond": "ALL"
+    }
