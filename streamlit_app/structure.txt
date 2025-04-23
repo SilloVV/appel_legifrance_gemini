@@ -1,0 +1,6 @@
+streamlit_app/
+├── app.py                 # Application Streamlit principale
+├── requirements.txt       # Dépendances pour l'application Streamlit
+├── run.sh                 # Script pour lancer l'application
+└── .streamlit/           
+    └── config.toml        # Configuration de Streamlit
