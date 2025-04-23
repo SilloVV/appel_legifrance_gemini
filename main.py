@@ -80,7 +80,7 @@ def main():
                     metadata_list.append(result_metadata)
             
             # Génération de la synthèse
-            print("\nSynthèse des résultats :")
+            #print("\nSynthèse des résultats :")
             synthesis = synthesize_legal_response(user_input, metadata_list)
             print(synthesis)
         else:
