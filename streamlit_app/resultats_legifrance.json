@@ -1,240 +1,12 @@
 {
-    "executionTime": 840,
+    "executionTime": 592,
     "results": [
         {
             "titles": [
                 {
-                    "id": "LEGITEXT000006070721",
-                    "cid": "LEGITEXT000006070721",
-                    "title": "Code civil",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1804-03-21T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000044058898",
-                    "title": "Paragraphe 2 :  Des règles particulières à l'hypothèque légale des mineurs ou des majeurs en tutelle ",
-                    "dateVersion": "2022-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000044072163",
-                            "title": "2399",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2022-01-01T00:00:00.000+0000",
-                            "dateDebut": "2022-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "2399",
-                            "values": [
-                                "[...] Le <mark>mineur</mark>, après sa majorité ou son <mark>émancipation</mark>, ou le majeur en tutelle, après la mainlevée de la tutelle des majeurs, <mark>peut</mark> requérir, dans le délai d'un an, l'inscription de son hypothèque légale ou [...] Ce <mark>droit</mark> <mark>peut</mark> être exercé par leurs héritiers dans le même délai ou dans l'année de leur décès s'ils sont décédés alors qu'ils étaient encore <mark>mineurs</mark> ou majeurs en tutelle. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006150344",
-                    "title": "Section 6 : Des règles particulières à l'hypothèque légale des personnes en tutelle.",
-                    "dateVersion": "2006-03-24T00:00:00.000+0000",
-                    "legalStatus": "TRANSFERE",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006446350",
-                            "title": "2144",
-                            "legalStatus": "TRANSFERE",
-                            "dateVersion": "2006-03-24T00:00:00.000+0000",
-                            "dateDebut": "1955-01-07T00:00:00.000+0000",
-                            "dateFin": "2006-03-24T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "2144",
-                            "values": [
-                                "[...] Le pupille, après sa majorité ou son <mark>émancipation</mark>, ou le majeur en tutelle, après la mainlevée de la tutelle des majeurs, <mark>peut</mark> requérir, dans le délai d'un an, l'inscription de son hypothèque légale ou [...] Ce <mark>droit</mark> <mark>peut</mark>, en outre, être exercé par les héritiers du pupille ou du majeur en tutelle dans le même délai, et, au cas de décès de l'incapable avant cessation de la tutelle ou mainlevée de la tutelle [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006136229",
-                    "title": "Chapitre III : De l'émancipation",
-                    "dateVersion": "2020-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000039367527",
-                            "title": "413-8",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2020-01-01T00:00:00.000+0000",
-                            "dateDebut": "2020-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "413-8",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> émancipé <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision <mark>d'émancipation</mark> et du président du tribunal judiciaire s'il formule cette demande après avoir été émancipé [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006070721",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000005634379",
-                    "cid": "LEGITEXT000005634379",
-                    "title": "Code de commerce",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "2000-09-21T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000006161246",
-                    "title": "Section 1 : De la qualité de commerçant.",
-                    "dateVersion": "2020-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000039280381",
-                            "title": "L121-2",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2020-01-01T00:00:00.000+0000",
-                            "dateDebut": "2020-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L121-2",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> émancipé <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision <mark>d'émancipation</mark> et du président du   tribunal judiciaire s'il formule cette demande après avoir été [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000020162760",
-                    "title": "ANNEXE 7-6 (ANNEXE À L'ARTICLE A. 742-11)",
-                    "dateVersion": "2017-08-21T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000035443924",
-                            "title": "Annexe 7-6",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2017-08-21T00:00:00.000+0000",
-                            "dateDebut": "2017-08-21T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "Annexe 7-6",
-                            "values": [
-                                "[...] I. – <mark>Droit</mark> civil Les personnes : <mark>droit</mark> des personnes ; jouissance et privation des <mark>droits</mark> civils. La famille : minorité ; tutelle et <mark>émancipation</mark> ; les majeurs protégés. [...] II. – <mark>Droit</mark> commercial Les <mark>commerçants</mark>. Les agents commerciaux. Les actes de <mark>commerce</mark>. Le registre du <mark>commerce</mark> et des sociétés et les autres registres de publicité légale. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006146141",
-                    "title": "Chapitre Ier : Des marchés d'intérêt national",
-                    "dateVersion": "2006-06-09T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006241485",
-                            "title": "L761-9",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2006-06-09T00:00:00.000+0000",
-                            "dateDebut": "2006-06-09T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L761-9",
-                            "values": [
-                                "[...] Le <mark>droit</mark> d'occupation privative d'emplacement dont dispose un <mark>commerçant</mark> établi dans l'enceinte d'un marché d'intérêt national est susceptible d'être compris dans le nantissement de son fonds de <mark>commerce</mark> [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000005634379",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "JORFTEXT000000277123",
-                    "cid": "JORFTEXT000000277123",
-                    "title": "Arrêté du 27 août 2007 fixant le programme et les modalités de l'examen de contrôle des connaissances institué par les articles 5 et 7 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire",
+                    "id": "JORFTEXT000037171860",
+                    "cid": "JORFTEXT000037171860",
+                    "title": "Arrêté du 28 juin 2018 portant extension de l'agrément de la Fondation de l'Armée du Salut",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -255,21 +27,7 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000001694424",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "Annexe",
-                            "values": [
-                                "[...] Divorce et séparation de corps : conséquences quant aux <mark>droits</mark> patrimoniaux respectifs des époux. Filiation. Autorité parentale relativement aux biens de <mark>l'enfant</mark>. Majorité, tutelle, <mark>émancipation</mark>. [...] <mark>Droit</mark> commercial <mark>Droit</mark> du fonds de <mark>commerce</mark>, vente et nantissement, distribution du prix. <mark>Droit</mark> des sociétés (civiles et commerciales) et des groupements. <mark>Droit</mark> des entreprises en difficulté. [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "JORFARTI000001116690",
+                            "id": "JORFARTI000037171867",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
@@ -278,21 +36,7 @@
                             "searchFieldName": null,
                             "num": "1",
                             "values": [
-                                "[...] Nul ne <mark>peut</mark> se présenter à plus de trois sessions d'examen. [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "JORFARTI000002293236",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "6",
-                            "values": [
-                                "[...] Les compositions sont l'objet d'une double correction, dont l'une sera effectuée par le professeur de <mark>droit</mark> membre du jury. L'épreuve écrite est notée de 0 à 20. [...]"
+                                "[...] L'agrément ministériel délivré par l'arrêté susvisé à la Fondation de l'Armée du <mark>Salut</mark> dont le siège social est situé 60, rue des Frères Flavien à Paris (75), est étendu au territoire de Belfort pour l'exercice [...]"
                             ],
                             "type": "articles"
                         }
@@ -304,7 +48,7 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "jusc0763740a",
+            "nor": "terl1800504a",
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
@@ -325,74 +69,9 @@
         {
             "titles": [
                 {
-                    "id": "JORFTEXT000045973971",
-                    "cid": "JORFTEXT000045973971",
-                    "title": "Groupes politiques",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "INFORMATIONS_PARLEMENTAIRES",
-            "origin": "JORF",
-            "etat": null,
-            "date": null,
-            "sections": [
-                {
-                    "id": null,
-                    "title": null,
-                    "dateVersion": null,
-                    "legalStatus": null,
-                    "extracts": [
-                        {
-                            "id": "JORFARTI000045973972",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": null,
-                            "values": [
-                                "[...] La XVIème législature doit nous permettre de construire pour nous <mark>enfants</mark> et nos <mark>petits-enfants</mark> une nation ouverte, de progrès et <mark>d'émancipation</mark> ; une nation dont la voix au sein de l'Union Européenne [...] Nous sommes convaincus qu'il ne <mark>peut</mark> y avoir <mark>d'émancipation</mark> pour notre jeunesse sans un accès constant à l'éducation, au savoir, à la formation, à la santé, à la culture, au sport, à la mobilité et au [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": "inpa2219104x",
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": false,
-            "additionalResult": {},
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "JORFTEXT000000228818",
-                    "cid": "JORFTEXT000000228818",
-                    "title": "Arrêté du 10 mars 2003 modifiant l'arrêté du 19 février 1980 fixant le programme et les modalités des examens de contrôle des connaissances institués par les articles 5 et 7 du décret n° 73-609 du 5 juillet 1973 modifié relatif à la formation professionnelle dans le notariat et aux conditions d'accès aux fonctions de notaire",
+                    "id": "JORFTEXT000029299842",
+                    "cid": "JORFTEXT000029299842",
+                    "title": "Arrêté du 21 juillet 2014 portant agrément de la Fondation de l'Armée du Salut",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -413,44 +92,160 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000002236615",
+                            "id": "JORFARTI000029299849",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
                             "dateDebut": "2999-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "Annexe",
+                            "num": "1",
                             "values": [
-                                "[...] ; Divorce et séparation de corps : conséquences quant aux <mark>droits</mark> patrimoniaux respectifs des époux ; Filiation ; Autorité parentale relativement aux biens de <mark>l'enfant</mark> ; Majorité, tutelle, <mark>émancipation</mark> [...] <mark>Droit</mark> commercial <mark>Droit</mark> du fonds de <mark>commerce</mark>, vente et nantissement, distribution du prix. <mark>Droit</mark> des sociétés (civiles et commerciales) et des groupements. Procédures collectives. [...]"
+                                "[...] Il est délivré à la Fondation de l'Armée du <mark>Salut</mark>, dont le siège social est situé à Paris, un agrément pour l'exercice de son activité de maîtrise d'ouvrage sur le territoire du département de l'Eure. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": "etll1416946a",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "JORFTEXT000025142464",
+                    "cid": "JORFTEXT000025142464",
+                    "title": "Arrêté du 2 janvier 2012 portant agrément de la fondation de l'Armée du Salut",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "ARRETE",
+            "origin": "JORF",
+            "etat": null,
+            "date": null,
+            "sections": [
+                {
+                    "id": null,
+                    "title": null,
+                    "dateVersion": null,
+                    "legalStatus": null,
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000025142468",
+                            "title": null,
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "1",
+                            "values": [
+                                "[...] Il est délivré à la fondation de l'Armée du <mark>Salut</mark>, dont le siège social est situé à Paris, un agrément portant sur le territoire des régions Alsace, Franche-Comté, Haute-Normandie, Ile-de-France, Lorraine [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": "devl1133974a",
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "JORFTEXT000050685639",
+                    "cid": "JORFTEXT000050685639",
+                    "title": "Arrêté du 5 novembre 2024 relatif à l'agrément de certains accords de travail applicables dans les établissements et services du secteur social et médico-social privé à but non lucratif",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "ARRETE",
+            "origin": "JORF",
+            "etat": null,
+            "date": null,
+            "sections": [
+                {
+                    "id": null,
+                    "title": null,
+                    "dateVersion": null,
+                    "legalStatus": null,
+                    "extracts": [
+                        {
+                            "id": "JORFARTI000050685650",
+                            "title": null,
+                            "legalStatus": "INITIALE",
+                            "dateVersion": null,
+                            "dateDebut": "2999-01-01T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": null,
+                            "values": [
+                                "[...] 64600 Anglet Accord 10/06/2024 requalification des agents administratifs principaux et- versement d'une prime exceptionnelle de 300 € aux salariés non-cadres exclus du Ségur. 75 Fondation de l'Armée du <mark>Salut</mark> [...]"
                             ],
                             "type": "articles"
                         },
                         {
-                            "id": "JORFARTI000002420762",
+                            "id": "JORFARTI000050685649",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
                             "dateDebut": "2999-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": "6",
+                            "num": null,
                             "values": [
-                                "[...] L'examen prévu à l'article 7 du décret du 5 juillet 1973 précité comporte quatre épreuves orales d'admission qui consistent en des interrogations portant chacune sur l'une des matières suivantes : <mark>droit</mark> [...] immobilier, <mark>droit</mark> rural, déontologie et comptabilité, <mark>droit</mark> fiscal. [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "JORFARTI000002016538",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "5",
-                            "values": [
-                                "[...] sur un sujet de <mark>droit</mark> commercial. [...] Les compositions sont l'objet d'une double correction dont l'une est effectuée par le professeur de <mark>droit</mark>, membre du jury. Les épreuves écrites d'admissibilité sont notées de 0 à 20. [...]"
+                                "[...] Villeurbanne Accord 05/08/2024 gestion prévisionnelle des emplois et des compétences 72 Association Tutélaire Hélianthe 72058 Le Mans DUE 25/09/2024 prime de partage de la valeur 75 Fondation Armée du <mark>Salut</mark> [...] 75020 Paris Accord 15/06/2023 organisation et modalités d'octroi des heures d'allaitement aux salariées 75 Fondation Armée du <mark>Salut</mark> 75020 Paris Accord 05/07/2024 organisation des congés payés 75 Association [...]"
                             ],
                             "type": "articles"
                         }
@@ -462,7 +257,7 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "jusc0320079a",
+            "nor": "saea2429809a",
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
@@ -483,9 +278,9 @@
         {
             "titles": [
                 {
-                    "id": "JORFTEXT000031319671",
-                    "cid": "JORFTEXT000031319671",
-                    "title": "Rapport au Président de la République relatif à l'ordonnance n° 2015-1288 du 15 octobre 2015 portant simplification et modernisation du droit de la famille",
+                    "id": "JORFTEXT000037330333",
+                    "cid": "JORFTEXT000037330333",
+                    "title": "Décret du 22 août 2018 approuvant les modifications apportées aux statuts d'une fondation reconnue d'utilité publique",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -494,7 +289,7 @@
             ],
             "text": null,
             "type": "_doc",
-            "nature": "RAPPORT",
+            "nature": "DECRET",
             "origin": "JORF",
             "etat": null,
             "date": null,
@@ -506,7 +301,7 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000031319672",
+                            "id": "JORFARTI000037330334",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
@@ -515,7 +310,7 @@
                             "searchFieldName": null,
                             "num": null,
                             "values": [
-                                "[...] de mesures de clarification du <mark>droit</mark> se sont révélées nécessaires ; - les règles relatives à la gestion par les citoyens des biens de leurs <mark>enfants</mark> <mark>mineurs</mark> ; - le <mark>droit</mark> de la protection des majeurs où [...] Il s'agit, entre autres, de la vente d'un bien ou d'un fonds de <mark>commerce</mark> appartenant au <mark>mineur</mark>, de la renonciation à un <mark>droit</mark> pour le compte du <mark>mineur</mark>, de la conclusion d'un emprunt pour son compte ou [...]"
+                                "[...] Par décret en date du 22 août 2018, sont approuvées les modifications apportées aux statuts (1) de la fondation reconnue d'utilité publique dite « Fondation de l'Armée du <mark>Salut</mark> », reconnue d'utilité publique [...]"
                             ],
                             "type": "articles"
                         }
@@ -527,7 +322,7 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "jusc1518093p",
+            "nor": "intd1811460d",
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
@@ -548,9 +343,9 @@
         {
             "titles": [
                 {
-                    "id": "JORFTEXT000043015725",
-                    "cid": "JORFTEXT000043015725",
-                    "title": "Documents et publications",
+                    "id": "JORFTEXT000045062160",
+                    "cid": "JORFTEXT000045062160",
+                    "title": "Arrêté du 4 janvier 2022 relatif au renouvellement de l'habilitation d'organismes accueillant des personnes condamnées à une peine de travail d'intérêt général",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -559,7 +354,7 @@
             ],
             "text": null,
             "type": "_doc",
-            "nature": "INFORMATIONS_PARLEMENTAIRES",
+            "nature": "ARRETE",
             "origin": "JORF",
             "etat": null,
             "date": null,
@@ -571,16 +366,16 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000043015726",
+                            "id": "JORFARTI000045062163",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
                             "dateDebut": "2999-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": null,
+                            "num": "2",
                             "values": [
-                                "[...] Hubert Wulfranc et plusieurs de ses collègues, une proposition de loi instaurant des dispositifs de soutien au <mark>commerce</mark> de proximité financés par les opérateurs du <mark>commerce</mark> en ligne et renforçant l'encadrement [...] Jean-Luc Warsmann, une proposition de loi tendant à permettre la scolarisation des <mark>enfants</mark> au lieu de résidence de l'un de leurs grands-parents. [...]"
+                                "[...] personnes morales de droit privé suivantes chargées d'une mission de service public exerçant ou ayant vocation à exercer leurs activités sur l'ensemble du territoire national : - la Fondation de l'Armée du <mark>salut</mark> [...]"
                             ],
                             "type": "articles"
                         }
@@ -592,7 +387,7 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "inpa2102175x",
+            "nor": "jusk2200316a",
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
@@ -613,9 +408,9 @@
         {
             "titles": [
                 {
-                    "id": "JORFTEXT000050029170",
-                    "cid": "JORFTEXT000050029170",
-                    "title": "Groupes politiques",
+                    "id": "JORFTEXT000034074226",
+                    "cid": "JORFTEXT000034074226",
+                    "title": "Arrêté du 21 février 2017 relatif à l'habilitation d'organismes accueillant des personnes condamnées à une peine de travail d'intérêt général",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -624,7 +419,7 @@
             ],
             "text": null,
             "type": "_doc",
-            "nature": "INFORMATIONS_PARLEMENTAIRES",
+            "nature": "ARRETE",
             "origin": "JORF",
             "etat": null,
             "date": null,
@@ -636,16 +431,16 @@
                     "legalStatus": null,
                     "extracts": [
                         {
-                            "id": "JORFARTI000050029171",
+                            "id": "JORFARTI000034074231",
                             "title": null,
                             "legalStatus": "INITIALE",
                             "dateVersion": null,
                             "dateDebut": "2999-01-01T00:00:00.000+0000",
                             "dateFin": "2999-01-01T00:00:00.000+0000",
                             "searchFieldName": null,
-                            "num": null,
+                            "num": "2",
                             "values": [
-                                "[...] Combattre toutes les formes de violence faites aux femmes et aux <mark>enfants</mark>. Offrir une réponse pénale rapide et efficace, notamment pour les <mark>mineurs</mark> délinquants. [...] Nous veillons au respect des <mark>droits</mark> des <mark>enfants</mark>. Nous garantissons le <mark>droit</mark> au logement digne et nous levons les obstacles à l'autonomie des personnes en situation de handicap. [...]"
+                                "[...] la personne morale de droit privé suivante chargée d'une mission de service public exerçant ou ayant vocation à exercer son activité sur l'ensemble du territoire national : la Fondation de l'Armée du <mark>salut</mark> [...]"
                             ],
                             "type": "articles"
                         }
@@ -657,13 +452,83 @@
             "numParution": null,
             "datePublication": null,
             "dossiersLegislatifs": [],
-            "nor": "inpa2420462x",
+            "nor": "jusk1704293a",
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
             "sizeAttachment": null,
             "moreArticle": false,
             "additionalResult": {},
+            "raisonSociale": null,
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": null,
+            "dateDiffusion": null,
+            "reference": null,
+            "themes": [],
+            "conforme": false,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "LEGITEXT000006071307",
+                    "cid": "LEGITEXT000006071307",
+                    "title": "Code de la défense",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": "_doc",
+            "nature": "CODE",
+            "origin": "LEGI",
+            "etat": "VIGUEUR",
+            "date": "2004-12-21T00:00:00.000+0000",
+            "sections": [
+                {
+                    "id": "LEGISCTA000018709152",
+                    "title": " Sous-section 2 : Tenue",
+                    "dateVersion": "2008-04-26T00:00:00.000+0000",
+                    "legalStatus": "VIGUEUR",
+                    "extracts": [
+                        {
+                            "id": "LEGIARTI000018717388",
+                            "title": "D4137-3",
+                            "legalStatus": "VIGUEUR",
+                            "dateVersion": "2008-04-26T00:00:00.000+0000",
+                            "dateDebut": "2008-04-26T00:00:00.000+0000",
+                            "dateFin": "2999-01-01T00:00:00.000+0000",
+                            "searchFieldName": null,
+                            "num": "D4137-3",
+                            "values": [
+                                "[...] En uniforme, tout militaire doit le <mark>salut</mark> aux autres militaires en uniforme placés au-dessus de lui dans l'ordre hiérarchique. Tout militaire salué doit rendre le <mark>salut</mark>. [...]"
+                            ],
+                            "type": "articles"
+                        }
+                    ]
+                }
+            ],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": null,
+            "moreArticle": false,
+            "additionalResult": {
+                "JorfAllFondConfiguration": {
+                    "id": "LEGITEXT000006071307",
+                    "properties": {}
+                }
+            },
             "raisonSociale": null,
             "idcc": null,
             "descriptionFusionHtml": null,
@@ -685,19 +550,19 @@
                 "CETAT": 547992,
                 "CIRC": 10708,
                 "CNIL": 26293,
-                "CODE": 4,
+                "CODE": 7,
                 "CONSTIT": 7038,
-                "JORF": 34,
+                "JORF": 105,
                 "JUFI": 3476,
                 "JURI": 598072,
                 "KALI": 0,
-                "LEGI": 13
+                "LEGI": 14
             },
             "childs": {},
             "totalElement": 0
         }
     ],
-    "totalResultNumber": 1533253,
+    "totalResultNumber": 1533328,
     "totalArticleResultNumber": 0,
     "typePagination": "DEFAUT",
     "descriptionFusionHtml": null

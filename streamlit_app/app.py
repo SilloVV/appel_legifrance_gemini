@@ -18,13 +18,13 @@ from LEGIFRANCE_UTILS.synthetize.synthetize_response import synthesize_legal_res
 
 # Configuration de la page Streamlit
 st.set_page_config(
-    page_title="JURI - Assistant de recherche juridique",
-    page_icon="⚖️",
+    page_title="JERRY - Assistant de recherche juridique",
+    page_icon="",
     layout="wide"
 )
 
 # Titre et description de l'application
-st.title("⚖️ JURI - Assistant de recherche juridique")
+st.title("🔍 JERRY - Assistant de recherche juridique")
 st.markdown("""
 Posez une question juridique pour obtenir une réponse basée sur les textes légaux et la jurisprudence française.
 """)
@@ -92,25 +92,6 @@ def process_juridical_question(user_question):
         with st.spinner("Analyse des documents juridiques..."):
             # Extraction des métadonnées à partir des résultats
             for result in api_results:
-                # Déterminer le type de document (JURI ou autre)
-                is_juri = result.get("origin") == "JURI" or (result.get("id", "") and "JURI" in result.get("id", ""))
-                
-                if is_juri:
-                    # Pour les documents JURI, obtenir les métadonnées spécifiques
-                    juri_id = None
-                    for section in result.get("sections", []):
-                        for extract in section.get("extracts", []):
-                            if extract.get("id"):
-                                juri_id = extract.get("id")
-                                break
-                        if juri_id:
-                            break
-                    
-                    if juri_id:
-                        juri_metadata = get_juri_document_metadata(juri_id)
-                        if juri_metadata:
-                            metadata_list.append(juri_metadata)
-                else:
                     # Pour les autres documents, utiliser le format standard
                     result_metadata = {
                         "document_id": result["titles"][0]["id"] if result.get("titles") else "",
@@ -147,8 +128,8 @@ def process_juridical_question(user_question):
     return None
 
 # Interface utilisateur principale
-question = st.text_area("Votre question juridique:", height=100, 
-                         placeholder="Exemple : Un mineur émancipé peut-il être commerçant?")
+question = st.text_area("Votre question juridique:", height=120, 
+                         placeholder="Exemple : Est-il possible de vendre des animaux vivants?")
 
 # Bouton de soumission
 if st.button("Rechercher", type="primary"):
@@ -172,7 +153,7 @@ if st.button("Rechercher", type="primary"):
             # Afficher la réponse principale dans un cadre
             st.markdown("### Réponse:")
             st.markdown(f"""
-            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #4361ee;">
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #b0302c;">
                 {main_response}
             </div>
             """, unsafe_allow_html=True)
@@ -182,13 +163,18 @@ if st.button("Rechercher", type="primary"):
             
             # Formater les sources en liste
             formatted_sources = format_sources_as_list(sources_text)
+
             
             # Extraire les sources individuelles
             sources = [src.strip() for src in sources_text.split('*') if src.strip()]
             
             # Afficher chaque source comme un élément séparé
             for source in sources:
-                st.markdown(f"* {source}")
+                 st.markdown(f"""
+            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #4361ee;">
+                * {source}
+            </div>
+            """, unsafe_allow_html=True)
                 
             if insufficient_docs:
                 st.warning("Note: Les documents trouvés ne fournissent pas d'information spécifique sur ce sujet.")
@@ -200,6 +186,6 @@ if st.button("Rechercher", type="primary"):
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center;">
-    <p><small>JURI - Assistant de recherche juridique basé sur l'API Légifrance et les modèles LLM</small></p>
+    <p><small>JERRY - Assistant de recherche juridique basé sur l'API Légifrance et les modèles LLM</small></p>
 </div>
 """, unsafe_allow_html=True)
