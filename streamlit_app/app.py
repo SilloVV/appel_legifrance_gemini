@@ -35,8 +35,11 @@ def extract_sources(text):
     sources_section = re.search(r'## SOURCES:(.*?)(?=##|$)', text, re.DOTALL)
     if sources_section:
         sources_text = sources_section.group(1).strip()
+        # Supprimer les mentions de documents insuffisants
+        sources_text = re.sub(r'# Documents insuffisants', '', sources_text)
+        sources_text = re.sub(r'#documents insuffisants', '', sources_text)
         # Vérifier si les documents étaient insuffisants
-        insufficient = "# Documents insuffisants" in text or "Connaissances juridiques générales" in text
+        insufficient = "Connaissances juridiques générales" in text
         return sources_text, insufficient
     return "", False
 
@@ -52,6 +55,9 @@ def format_sources_as_list(sources_text):
     """
     Transforme un texte contenant des sources en liste formatée Markdown
     """
+    # Nettoyer le texte des sources
+    sources_text = sources_text.replace("Connaissances juridiques générales", "")
+    
     # Repérer les différentes sources (séparées par des astérisques)
     sources = sources_text.split('*')
     
@@ -158,24 +164,25 @@ if st.button("Rechercher", type="primary"):
             </div>
             """, unsafe_allow_html=True)
             
-            # Afficher les sources
-            st.markdown("### Sources:")
-            
-            # Formater les sources en liste
-            formatted_sources = format_sources_as_list(sources_text)
-
-            
-            # Extraire les sources individuelles
-            sources = [src.strip() for src in sources_text.split('*') if src.strip()]
-            
-            # Afficher chaque source comme un élément séparé
-            for source in sources:
-                 st.markdown(f"""
-            <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #4361ee;">
-                * {source}
-            </div>
-            """, unsafe_allow_html=True)
+            # N'afficher la section des sources que si elle n'est pas vide
+            if sources_text.strip():
+                st.markdown("### Sources:")
                 
+                # Formater les sources en liste
+                formatted_sources = format_sources_as_list(sources_text)
+                
+                # Extraire les sources individuelles
+                sources = [src.strip() for src in sources_text.split('*') if src.strip()]
+                
+                # Afficher chaque source comme un élément séparé
+                for source in sources:
+                    if source and not "documents insuffisants" in source.lower():
+                        st.markdown(f"""
+                <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #4361ee;">
+                    * {source}
+                </div>
+                """, unsafe_allow_html=True)
+            
             if insufficient_docs:
                 st.warning("Note: Les documents trouvés ne fournissent pas d'information spécifique sur ce sujet.")
             
