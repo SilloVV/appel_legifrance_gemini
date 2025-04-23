@@ -13,7 +13,6 @@ sys.path.append(ROOT_DIR)
 # Importer les modules du projet principal
 from LEGIFRANCE_UTILS.payload.payload_generator import create_payload
 from SEARCH.search_call import search_call
-from JURI.get_juri_from_id import get_juri_document_metadata
 from LEGIFRANCE_UTILS.synthetize.synthetize_response import synthesize_legal_response
 
 # Configuration de la page Streamlit
@@ -47,7 +46,10 @@ def extract_sources(text):
 def extract_response(text):
     response_section = re.search(r'## RÉPONSE :(.*?)(?=## SOURCES:|$)', text, re.DOTALL)
     if response_section:
-        return response_section.group(1).strip()
+        response_text = response_section.group(1).strip()
+        # Ajouter un espace après "Éléments constitutifs :"
+        response_text = re.sub(r'\*\*Éléments constitutifs :\*\*', '<strong>Éléments constitutifs :</strong>', response_text)
+        return response_text
     return text
 
 # Fonction pour formater les sources en liste
@@ -64,8 +66,8 @@ def format_sources_as_list(sources_text):
     # Filtrer les entrées vides
     sources = [s.strip() for s in sources if s.strip()]
     
-    # Formater chaque source comme un élément de liste
-    formatted_sources = ["* " + source for source in sources]
+    # Formater chaque source comme un élément de liste avec des points (•)
+    formatted_sources = ["• " + source for source in sources]
     
     return "\n".join(formatted_sources)
 
@@ -98,28 +100,30 @@ def process_juridical_question(user_question):
         with st.spinner("Analyse des documents juridiques..."):
             # Extraction des métadonnées à partir des résultats
             for result in api_results:
-                    # Pour les autres documents, utiliser le format standard
-                    result_metadata = {
-                        "document_id": result["titles"][0]["id"] if result.get("titles") else "",
-                        "titre": result["titles"][0]["title"] if result.get("titles") else "Titre inconnu",
-                        "type": result.get("type", ""),
-                        "nature": result.get("nature", ""),
-                        "origine": result.get("origin", ""),
-                        "date": result.get("date", ""),
-                        "texte": ""
-                    }
-                    
-                    # Ajout des extraits pertinents pour constituer le texte
-                    combined_text = ""
-                    for section in result.get("sections", []):
-                        for extract in section.get("extracts", []):
-                            if extract.get("values"):
-                                section_text = f"[{section.get('title', 'Section sans titre')}] "
-                                extract_text = " ".join(extract["values"])
-                                combined_text += section_text + extract_text + "\n\n"
-                    
-                    result_metadata["texte"] = combined_text
-                    metadata_list.append(result_metadata)
+                # Utiliser le format standard (comme dans main.py)
+                result_metadata = {
+                    "title": result["titles"][0]["title"] if result.get("titles") else "Titre inconnu",
+                    "id": result["titles"][0]["id"] if result.get("titles") else "",
+                    "cid": result["titles"][0]["cid"] if result.get("titles") else "",
+                    "type": result.get("type", ""),
+                    "nature": result.get("nature", ""),
+                    "origin": result.get("origin", ""),
+                    "date": result.get("date", ""),
+                    "extracts": []
+                }
+                
+                # Ajout des extraits pertinents comme liste d'objets
+                for section in result.get("sections", []):
+                    for extract in section.get("extracts", []):
+                        extract_data = {
+                            "id": extract.get("id", ""),
+                            "title": extract.get("title", "") or extract.get("num", "") or "Sans titre",
+                            "section_title": section.get("title", ""),
+                            "text": " ".join(extract.get("values", [])) if extract.get("values") else ""
+                        }
+                        result_metadata["extracts"].append(extract_data)
+                
+                metadata_list.append(result_metadata)
         
         with st.spinner("Génération de la réponse juridique..."):
             # Génération de la synthèse
@@ -134,7 +138,7 @@ def process_juridical_question(user_question):
     return None
 
 # Interface utilisateur principale
-question = st.text_area("Votre question juridique:", height=120, 
+question = st.text_area("Votre question juridique:", height=100, 
                          placeholder="Exemple : Est-il possible de vendre des animaux vivants?")
 
 # Bouton de soumission
@@ -168,18 +172,15 @@ if st.button("Rechercher", type="primary"):
             if sources_text.strip():
                 st.markdown("### Sources:")
                 
-                # Formater les sources en liste
-                formatted_sources = format_sources_as_list(sources_text)
-                
                 # Extraire les sources individuelles
                 sources = [src.strip() for src in sources_text.split('*') if src.strip()]
                 
-                # Afficher chaque source comme un élément séparé
+                # Afficher chaque source comme un élément séparé avec des points
                 for source in sources:
                     if source and not "documents insuffisants" in source.lower():
                         st.markdown(f"""
                 <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; border-left: 5px solid #4361ee;">
-                    * {source}
+                    • {source}
                 </div>
                 """, unsafe_allow_html=True)
             

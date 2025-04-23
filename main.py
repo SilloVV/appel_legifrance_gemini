@@ -5,7 +5,7 @@ import os
 from LEGIFRANCE_UTILS.payload.payload_generator import create_payload
 from LEGIFRANCE_UTILS.payload.parse_payload import parse_json_model_output
 from SEARCH.search_call import search_call, format_search_results
-from JURI.get_article_from_id import print_article
+from LEGIFRANCE_UTILS.display_article.get_article_from_id import print_article
 from LEGIFRANCE_UTILS.synthetize.synthetize_response import synthesize_legal_response
 
 
@@ -37,7 +37,7 @@ def main():
                 return
             
             #  affichage des documents formattés
-            # format_search_results(api_results)
+            format_search_results(api_results)
 
             # Préparation des métadonnées pour la synthèse
             metadata_list = []

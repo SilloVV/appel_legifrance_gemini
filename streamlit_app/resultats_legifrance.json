@@ -1,12 +1,12 @@
 {
-    "executionTime": 1210,
+    "executionTime": 723,
     "results": [
         {
             "titles": [
                 {
-                    "id": "LEGITEXT000006070721",
-                    "cid": "LEGITEXT000006070721",
-                    "title": "Code civil",
+                    "id": "ACCOTEXT000044274056",
+                    "cid": "ACCOTEXT000044274056",
+                    "title": "ACCORD D'ENTREPRISE DE L'UES DU GROUPE AZURIAL RELATIF A LA GESTION PREVISIONNELLE DE L'EMPLOI ET DES COMPETENCES",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -14,620 +14,12 @@
                 }
             ],
             "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1804-03-21T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000006136229",
-                    "title": "Chapitre III : De l'émancipation",
-                    "dateVersion": "2020-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000039367527",
-                            "title": "413-8",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2020-01-01T00:00:00.000+0000",
-                            "dateDebut": "2020-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "413-8",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision d'émancipation et du président du tribunal judiciaire s'il formule cette demande après avoir été <mark>émancipé</mark> [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "LEGIARTI000006427926",
-                            "title": "413-6",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2009-01-01T00:00:00.000+0000",
-                            "dateDebut": "2009-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "413-6",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> est capable, comme un majeur, de tous les actes de la vie civile. [...] Il doit néanmoins, pour se marier ou se donner en adoption, observer les mêmes règles que s'il n'était point <mark>émancipé</mark>. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006150110",
-                    "title": "Section 2 : Des dispositions communes aux mesures judiciaires",
-                    "dateVersion": "2009-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006427469",
-                            "title": "429",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2009-01-01T00:00:00.000+0000",
-                            "dateDebut": "2009-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "429",
-                            "values": [
-                                "[...] La mesure de protection judiciaire <mark>peut</mark> être ouverte pour un <mark>mineur</mark> <mark>émancipé</mark> comme pour un majeur. [...] Pour un <mark>mineur</mark> non <mark>émancipé</mark>, la demande <mark>peut</mark> être introduite et jugée dans la dernière année de sa minorité. La mesure de protection judiciaire ne prend toutefois effet que du jour de sa majorité. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006070721",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000005634379",
-                    "cid": "LEGITEXT000005634379",
-                    "title": "Code de commerce",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "2000-09-21T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000006161246",
-                    "title": "Section 1 : De la qualité de commerçant.",
-                    "dateVersion": "2020-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000039280381",
-                            "title": "L121-2",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2020-01-01T00:00:00.000+0000",
-                            "dateDebut": "2020-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L121-2",
-                            "values": [
-                                "[...] Le <mark>mineur</mark> <mark>émancipé</mark> <mark>peut</mark> être <mark>commerçant</mark> sur autorisation du juge des tutelles au moment de la décision d'émancipation et du président du   tribunal judiciaire s'il formule cette demande après avoir été [...] <mark>émancipé</mark>. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006146043",
-                    "title": "Chapitre II : Des sociétés en commandite simple.",
-                    "dateVersion": "2000-09-21T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006222797",
-                            "title": "L222-10",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2000-09-21T00:00:00.000+0000",
-                            "dateDebut": "2000-09-21T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L222-10",
-                            "values": [
-                                "[...] S'il est stipulé que malgré le décès de l'un des commandités, la société continue avec ses héritiers, ceux-ci deviennent commanditaires lorsqu'ils sont <mark>mineurs</mark> non <mark>émancipés</mark>. [...] A défaut, la société est dissoute de plein <mark>droit</mark> à l'expiration de ce délai. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006178773",
-                    "title": "Sous-section 4 : Les actions à dividende prioritaire sans droit de vote.",
-                    "dateVersion": "2004-06-26T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006227986",
-                            "title": "L228-35-8",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2004-06-26T00:00:00.000+0000",
-                            "dateDebut": "2004-06-26T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L228-35-8",
-                            "values": [
-                                "[...] directeurs généraux, les membres du directoire et du conseil de surveillance d'une société anonyme, les gérants d'une société en commandite par actions et leur conjoint non séparé de corps ainsi que leurs <mark>enfants</mark> [...] <mark>mineurs</mark> non <mark>émancipés</mark> ne peuvent détenir, sous quelque forme que ce soit, des actions à dividende prioritaire sans <mark>droit</mark> de vote émises par cette société. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000005634379",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000006074075",
-                    "cid": "LEGITEXT000006074075",
-                    "title": "Code de l'urbanisme",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1973-01-03T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000017630675",
-                    "title": "Chapitre VIII : Etablissement public de gestion du quartier d'affaires de La Défense",
-                    "dateVersion": "2019-04-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000037775979",
-                            "title": "R328-3",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2019-04-01T00:00:00.000+0000",
-                            "dateDebut": "2019-04-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R328-3",
-                            "values": [
-                                "[...] capital ou des <mark>droits</mark> de vote, possédés par eux-mêmes, leurs conjoints et <mark>enfants</mark> <mark>mineurs</mark> non <mark>émancipés</mark> dans les mêmes sociétés ou organismes. [...] Cet administrateur ne <mark>peut</mark> siéger au conseil d'administration avant de s'être acquitté de cette obligation, à moins qu'il ait justifié être dans l'impossibilité temporaire de le faire. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006158754",
-                    "title": "Chapitre Ier : Etablissements publics",
-                    "dateVersion": "2025-03-19T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000051346639",
-                            "title": "R321-5",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2025-03-19T00:00:00.000+0000",
-                            "dateDebut": "2025-03-19T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R321-5",
-                            "values": [
-                                "[...] capital ou des <mark>droits</mark> de vote, possédés par eux-mêmes, leurs conjoints et <mark>enfants</mark> <mark>mineurs</mark> non <mark>émancipés</mark> dans les mêmes sociétés ou organismes. [...] Cet administrateur ne <mark>peut</mark> siéger au conseil d'administration avant de s'être acquitté de cette obligation, à moins qu'il ait justifié être dans l'impossibilité temporaire de le faire. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000017785327",
-                    "title": " Section 3 : Rétrocession",
-                    "dateVersion": "2023-01-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000046074442",
-                            "title": "R214-12",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2023-01-01T00:00:00.000+0000",
-                            "dateDebut": "2023-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R214-12",
-                            "values": [
-                                "[...] Cet avis comporte un appel à candidatures, la description du fonds, du bail ou du terrain, le prix proposé et mentionne que le cahier des charges <mark>peut</mark> être consulté en mairie. [...] Lorsque l'exercice du <mark>droit</mark> de préemption a été délégué, le délégataire transmet l'avis de rétrocession au maire qui en assure la publicité dans les conditions fixées au premier alinéa. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006074075",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000006073189",
-                    "cid": "LEGITEXT000006073189",
-                    "title": "Code de la sécurité sociale",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1958-10-16T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000047450298",
-                    "title": "Chapitre 8 : Pension d'orphelin",
-                    "dateVersion": "2023-09-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000047450364",
-                            "title": "L358-7",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2023-09-01T00:00:00.000+0000",
-                            "dateDebut": "2023-09-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L358-7",
-                            "values": [
-                                "[...] -Lorsque le bénéficiaire de la pension d'orphelin est un <mark>mineur</mark> non <mark>émancipé</mark>, les déclarations prévues au I du présent article sont effectuées par ses tuteurs. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006172514",
-                    "title": "Section 2 : Chirurgiens-dentistes, sages-femmes et auxiliaires médicaux",
-                    "dateVersion": "2021-04-28T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000043422500",
-                            "title": "L162-8-2",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2021-04-28T00:00:00.000+0000",
-                            "dateDebut": "2021-04-28T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L162-8-2",
-                            "values": [
-                                "[...] Afin de favoriser la coordination des soins en lien avec le médecin, pendant et après la grossesse, l'assurée ou l'ayant <mark>droit</mark> <mark>peut</mark> déclarer à son organisme gestionnaire de régime de base de l'assurance [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006155877",
-                    "title": "Chapitre 4 : Allocation de présence parentale ",
-                    "dateVersion": "2022-04-30T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000045706451",
-                            "title": "D544-3",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2022-04-30T00:00:00.000+0000",
-                            "dateDebut": "2022-04-30T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "D544-3",
-                            "values": [
-                                "[...] Au cours d'une période de trois ans à compter de la date d'ouverture du <mark>droit</mark> à l'allocation journalière de présence parentale et en l'absence d'utilisation du nombre maximal d'allocations journalières [...] mentionné à l'article L. 544-3 , ce <mark>droit</mark> <mark>peut</mark> être ouvert à nouveau en cas de rechute de la pathologie au titre de laquelle le <mark>droit</mark> avait été ouvert et dès lors que les conditions visées aux articles [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": null,
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006073189",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "JORFTEXT000000580585",
-                    "cid": "JORFTEXT000000580585",
-                    "title": "Observations du Gouvernement sur les recours dirigés contre la loi relative au pacte civil de solidarité",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "OBSERVATION",
-            "origin": "JORF",
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
             "etat": null,
             "date": null,
-            "sections": [
-                {
-                    "id": null,
-                    "title": null,
-                    "dateVersion": null,
-                    "legalStatus": null,
-                    "extracts": [
-                        {
-                            "id": "JORFARTI000001437032",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": null,
-                            "values": [
-                                "[...] Toutefois, cette règle connaît des exceptions : - le <mark>mineur</mark> <mark>émancipé</mark> ne <mark>peut</mark> se marier, ni consentir à se faire adopter, sans l'autorisation de ses parents (article 481 du code civil) ; - il ne <mark>peut</mark> être [...] <mark>commerçant</mark> (article 487 du code civil). [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "JORFARTI000001437033",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": null,
-                            "values": [
-                                "[...] Ils soutiennent également que cette faculté de rupture unilatérale méconnaît les principes régissant les contrats et ignore le sort des <mark>enfants</mark>. [...] Conformément au <mark>droit</mark> commun, d'éventuels litiges entre les anciens partenaires concernant la situation de leurs <mark>enfants</mark> communs devront être portés devant le juge aux affaires familiales. 4. [...]"
-                            ],
-                            "type": "articles"
-                        },
-                        {
-                            "id": "JORFARTI000002212613",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": null,
-                            "values": [
-                                "[...] En outre, la présomption d'indivision pesant sur les meubles dont la date d'acquisition ne <mark>peut</mark> être déterminée porterait atteinte au <mark>droit</mark> de propriété d'un des partenaires. [...] d'assurer la publicité de leur régime matrimonial dans le registre du <mark>commerce</mark> et des sociétés (décret no 84-406 du 30 mai 1984 modifié, articles 8, 12 et 27). [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": "cscl9903809x",
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {},
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "LEGITEXT000006074096",
-                    "cid": "LEGITEXT000006074096",
-                    "title": "Code de la construction et de l'habitation",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1977-03-10T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000020778392",
-                    "title": "Sous-section 1 : Dispositions générales",
-                    "dateVersion": "2009-06-24T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000020780544",
-                            "title": "R313-17",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2009-06-24T00:00:00.000+0000",
-                            "dateDebut": "2009-06-24T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R313-17",
-                            "values": [
-                                "[...] non <mark>émancipés</mark>. [...] Toutefois, le conjoint du dirigeant de société ou d'un organisme collecteur agréé, de l'exploitant individuel, ainsi que leurs <mark>enfants</mark> non <mark>émancipés</mark> peuvent bénéficier, lorsqu'ils sont salariés d'une autre [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006159127",
-                    "title": "Chapitre II : Bail à réhabilitation.",
-                    "dateVersion": "2006-07-16T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006824565",
-                            "title": "L252-2",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2006-07-16T00:00:00.000+0000",
-                            "dateDebut": "2006-07-16T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L252-2",
-                            "values": [
-                                "[...] Le preneur est titulaire d'un <mark>droit</mark> réel immobilier. Ce <mark>droit</mark> <mark>peut</mark> être hypothéqué ; il <mark>peut</mark> être saisi dans les formes prescrites pour la saisie immobilière. [...] Le <mark>droit</mark> ne <mark>peut</mark> être cédé que s'il porte sur la totalité de l'immeuble loué. Le cédant demeure garant de l'exécution du bail par le cessionnaire. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006159146",
-                    "title": "Chapitre Ier : Bail à construction.",
-                    "dateVersion": "2006-07-16T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006824548",
-                            "title": "L251-3",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2006-07-16T00:00:00.000+0000",
-                            "dateDebut": "2006-07-16T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L251-3",
-                            "values": [
-                                "[...] Ce <mark>droit</mark> <mark>peut</mark> être hypothéqué, de même que les constructions édifiées sur le terrain loué ; il <mark>peut</mark> être saisi dans les formes prescrites pour la saisie immobilière. [...] Le preneur <mark>peut</mark> céder tout ou partie de ses <mark>droits</mark> ou les apporter en société. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
+            "sections": [],
             "num": null,
             "jorfText": null,
             "numParution": null,
@@ -637,96 +29,37 @@
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006074096",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
-            "idcc": null,
-            "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
-            "resumePrincipal": [],
-            "autreResume": []
-        },
-        {
-            "titles": [
-                {
-                    "id": "JORFTEXT000044194506",
-                    "cid": "JORFTEXT000044194506",
-                    "title": "Documents et publications",
-                    "legalStatus": null,
-                    "startDate": null,
-                    "endDate": null,
-                    "nature": null
-                }
-            ],
-            "text": null,
-            "type": "_doc",
-            "nature": "INFORMATIONS_PARLEMENTAIRES",
-            "origin": "JORF",
-            "etat": null,
-            "date": null,
-            "sections": [
-                {
-                    "id": null,
-                    "title": null,
-                    "dateVersion": null,
-                    "legalStatus": null,
-                    "extracts": [
-                        {
-                            "id": "JORFARTI000044194507",
-                            "title": null,
-                            "legalStatus": "INITIALE",
-                            "dateVersion": null,
-                            "dateDebut": "2999-01-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": null,
-                            "values": [
-                                "[...] <mark>émancipés</mark>. [...] Antoine Herth, Tome VII : Économie : <mark>Commerce</mark> extérieur ; de M. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
-            "num": null,
-            "jorfText": null,
-            "numParution": null,
-            "datePublication": null,
-            "dossiersLegislatifs": [],
-            "nor": "inpa2130868x",
-            "motsCles": [],
-            "appellations": [],
-            "idAttachment": null,
-            "sizeAttachment": null,
+            "sizeAttachment": "28827",
             "moreArticle": false,
             "additionalResult": {},
-            "raisonSociale": null,
+            "raisonSociale": "AZURIAL",
             "idcc": null,
             "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
-            "themes": [],
-            "conforme": false,
+            "dateSignature": "2021-10-01T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T06021003684",
+            "themes": [
+                "Aménagement du temps de travail (modulation, annualisation, cycles)",
+                "Autre, précisez",
+                "Commissions paritaires",
+                "Droit syndical, IRP, expression des salariés",
+                "Durée collective du temps de travail",
+                "Formation professionnelle",
+                "GPEC",
+                "Mobilité (géographique, professionnelle - promotions)",
+                "Non discrimination - Diversité",
+                "Travail à temps partiel"
+            ],
+            "conforme": true,
             "resumePrincipal": [],
             "autreResume": []
         },
         {
             "titles": [
                 {
-                    "id": "LEGITEXT000022197698",
-                    "cid": "LEGITEXT000006071367",
-                    "title": "Code rural et de la pêche maritime",
+                    "id": "ACCOTEXT000044274121",
+                    "cid": "ACCOTEXT000044274121",
+                    "title": "ACCORD DEROGATOIRE CP ET ORGANISATION RTT 2021",
                     "legalStatus": null,
                     "startDate": null,
                     "endDate": null,
@@ -734,79 +67,12 @@
                 }
             ],
             "text": null,
-            "type": "_doc",
-            "nature": "CODE",
-            "origin": "LEGI",
-            "etat": "VIGUEUR",
-            "date": "1979-12-01T00:00:00.000+0000",
-            "sections": [
-                {
-                    "id": "LEGISCTA000006167761",
-                    "title": "Section 8 : Droit de renouvellement et droit de reprise.",
-                    "dateVersion": "2006-01-06T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000006583818",
-                            "title": "L411-48",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2006-01-06T00:00:00.000+0000",
-                            "dateDebut": "2006-01-06T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L411-48",
-                            "values": [
-                                "[...] , soit un autre descendant majeur ou <mark>mineur</mark> <mark>émancipé</mark> de plein <mark>droit</mark> ; -s'il s'agit d'une demande de reprise personnelle du bailleur, ce dernier <mark>peut</mark> se substituer soit son conjoint ou le partenaire avec [...] lequel il est lié par un pacte civil de solidarité, soit l'un de ses descendants majeur ou <mark>mineur</mark> <mark>émancipé</mark> de plein <mark>droit</mark>. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000006183621",
-                    "title": "Sous-section 3 : Modalités d'emploi de la participation.",
-                    "dateVersion": "2017-10-28T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000035917444",
-                            "title": "R716-33",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2017-10-28T00:00:00.000+0000",
-                            "dateDebut": "2017-10-28T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "R716-33",
-                            "values": [
-                                "[...] -Les dirigeants, au sens du 3 de l' article 39 et de l' article 211 bis du code général des impôts, de l'entreprise exploitée en société ainsi que leur conjoint et leurs <mark>enfants</mark> non <mark>émancipés</mark> ne peuvent [...] Il en est de même de l'exploitant individuel, de son conjoint et de leurs <mark>enfants</mark> non <mark>émancipés</mark>. [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                },
-                {
-                    "id": "LEGISCTA000032343581",
-                    "title": "Sous-section 3 : Congé, renouvellement, reprise",
-                    "dateVersion": "2016-07-01T00:00:00.000+0000",
-                    "legalStatus": "VIGUEUR",
-                    "extracts": [
-                        {
-                            "id": "LEGIARTI000032360728",
-                            "title": "L461-13",
-                            "legalStatus": "VIGUEUR",
-                            "dateVersion": "2016-07-01T00:00:00.000+0000",
-                            "dateDebut": "2016-07-01T00:00:00.000+0000",
-                            "dateFin": "2999-01-01T00:00:00.000+0000",
-                            "searchFieldName": null,
-                            "num": "L461-13",
-                            "values": [
-                                "[...] , majeur ou <mark>mineur</mark> <mark>émancipé</mark> de plein <mark>droit</mark>, qui devra exploiter le fonds dans les conditions fixées ci-dessus. [...] Par dérogation aux dispositions de l'article L. 461-6 , le <mark>droit</mark> de reprise prévu à l'alinéa qui précède <mark>peut</mark> être exercé en cours de bail à l'expiration de l'une des périodes prévues par le contrat type [...]"
-                            ],
-                            "type": "articles"
-                        }
-                    ]
-                }
-            ],
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
             "num": null,
             "jorfText": null,
             "numParution": null,
@@ -816,22 +82,286 @@
             "motsCles": [],
             "appellations": [],
             "idAttachment": null,
-            "sizeAttachment": null,
-            "moreArticle": true,
-            "additionalResult": {
-                "JorfAllFondConfiguration": {
-                    "id": "LEGITEXT000006071367",
-                    "properties": {}
-                }
-            },
-            "raisonSociale": null,
+            "sizeAttachment": "5460",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "SAB MATOUR",
             "idcc": null,
             "descriptionFusionHtml": null,
-            "dateSignature": null,
-            "dateDiffusion": null,
-            "reference": null,
+            "dateSignature": "2021-01-25T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T07121002277",
             "themes": [],
-            "conforme": false,
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274109",
+                    "cid": "ACCOTEXT000044274109",
+                    "title": "ACCORD D'ENTREPRISE RELATIF A LA DUREE DU TRAVAIL",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "16648",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "SARL RIZZO LAURENT PAYSAGISTE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2020-10-09T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T06920013122",
+            "themes": [
+                "Aménagement du temps de travail (modulation, annualisation, cycles)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274038",
+                    "cid": "ACCOTEXT000044274038",
+                    "title": "ACCORD EN FAVEUR DE LA PREVENTION DES EFFETS DE L'EXPOSITION A CERTAINS FACTEURS DE RISQUES PROFESSIONNELS",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "25288",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "TECHNI DESOSS",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2020-12-16T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T04921006407",
+            "themes": [
+                "Pénibilité du travail (1% pénibilité, prévention, compensation/réparation)"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274199",
+                    "cid": "ACCOTEXT000044274199",
+                    "title": "ACCORD ANTICIPE DE SUBSTITUTION SUR L'ORGANISATION ET L'AMENAGEMENT DU TEMPS DE TRAVAIL POUR LES SALARIES AVEC UN DECOMPTE EN JOURS AU SEIN D'AESIO MUTUELLE",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "30813",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "AESIO MUTUELLE",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2020-12-09T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T07521028343",
+            "themes": [
+                "Aménagement du temps de travail (modulation, annualisation, cycles)",
+                "Droit à la déconnexion et outils numériques",
+                "Durée collective du temps de travail",
+                "Fixation des congés (jours fériés, ponts, RTT)",
+                "Forfaits (en heures, en jours)",
+                "Travail du dimanche"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274033",
+                    "cid": "ACCOTEXT000044274033",
+                    "title": "ACCORD ENTREPRISE RELATIF A LA MISE EN OEUVRE DU DISPOSITIF D'ACTIVITE PARTIELLE DE LONGUE DUREE",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "19591",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "CHOLET VOYAGES",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2021-07-26T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T04921006391",
+            "themes": [
+                "Autre, précisez"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274055",
+                    "cid": "ACCOTEXT000044274055",
+                    "title": "accord sur le don de jours de repos",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "12657",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "INSTITUT DE RECHERCHE TECHNOLOGIQUE MATERIAUX, METALLURGIE, PROCEDES",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2021-09-24T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T05721005246",
+            "themes": [
+                "Dispositifs don de jour et jour de solidarité"
+            ],
+            "conforme": true,
+            "resumePrincipal": [],
+            "autreResume": []
+        },
+        {
+            "titles": [
+                {
+                    "id": "ACCOTEXT000044274049",
+                    "cid": "ACCOTEXT000044274049",
+                    "title": "Accord collectif sur l'activité réduite pour le maintien en emploi",
+                    "legalStatus": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "nature": null
+                }
+            ],
+            "text": null,
+            "type": null,
+            "nature": null,
+            "origin": "ACCO",
+            "etat": null,
+            "date": null,
+            "sections": [],
+            "num": null,
+            "jorfText": null,
+            "numParution": null,
+            "datePublication": null,
+            "dossiersLegislatifs": [],
+            "nor": null,
+            "motsCles": [],
+            "appellations": [],
+            "idAttachment": null,
+            "sizeAttachment": "15061",
+            "moreArticle": false,
+            "additionalResult": {},
+            "raisonSociale": "KLOG",
+            "idcc": null,
+            "descriptionFusionHtml": null,
+            "dateSignature": "2021-07-20T00:00:00.000+0000",
+            "dateDiffusion": "2021-11-01T00:00:00.000+0000",
+            "reference": "T05721005235",
+            "themes": [
+                "Autres dispositions emploi"
+            ],
+            "conforme": true,
             "resumePrincipal": [],
             "autreResume": []
         }
@@ -845,19 +375,19 @@
                 "CETAT": 547992,
                 "CIRC": 10708,
                 "CNIL": 26293,
-                "CODE": 7,
+                "CODE": 0,
                 "CONSTIT": 7038,
-                "JORF": 15,
+                "JORF": 0,
                 "JUFI": 3476,
                 "JURI": 598072,
-                "KALI": 8,
-                "LEGI": 31
+                "KALI": 0,
+                "LEGI": 0
             },
             "childs": {},
             "totalElement": 0
         }
     ],
-    "totalResultNumber": 1533263,
+    "totalResultNumber": 1533202,
     "totalArticleResultNumber": 0,
     "typePagination": "DEFAUT",
     "descriptionFusionHtml": null
